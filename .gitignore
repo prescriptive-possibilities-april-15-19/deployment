@@ -4,3 +4,5 @@ deploy-virt/
 *.zip
 __pycache__/
 *.pk
+infere
+.ipynb_checkpoints

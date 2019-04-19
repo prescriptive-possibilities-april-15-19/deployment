@@ -1,0 +1,524 @@
+-------------------------------------
+/opt/python/log/supervisord.log
+-------------------------------------
+2019-04-18 21:44:37,578 CRIT Supervisor running as root (no user in config file)
+2019-04-18 21:44:37,592 INFO RPC interface 'supervisor' initialized
+2019-04-18 21:44:37,592 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-04-18 21:44:37,592 INFO supervisord started with pid 3050
+2019-04-18 21:44:38,596 INFO spawned: 'httpd' with pid 3134
+2019-04-18 21:44:39,864 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-04-18 21:45:10,706 INFO stopped: httpd (exit status 0)
+2019-04-18 21:45:11,711 INFO spawned: 'httpd' with pid 3349
+2019-04-18 21:45:12,763 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-04-18 22:10:14,601 INFO stopped: httpd (exit status 0)
+2019-04-18 22:10:15,606 INFO spawned: 'httpd' with pid 4405
+2019-04-18 22:10:16,718 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-04-18 22:22:31,682 INFO stopped: httpd (exit status 0)
+2019-04-18 22:22:32,687 INFO spawned: 'httpd' with pid 5061
+2019-04-18 22:22:33,740 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-04-18 22:27:05,743 INFO stopped: httpd (exit status 0)
+2019-04-18 22:27:06,748 INFO spawned: 'httpd' with pid 5471
+2019-04-18 22:27:07,817 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-04-18 22:29:22,362 INFO stopped: httpd (exit status 0)
+2019-04-18 22:29:23,367 INFO spawned: 'httpd' with pid 5802
+2019-04-18 22:29:24,442 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-04-18 22:34:06,318 INFO stopped: httpd (exit status 0)
+2019-04-18 22:34:07,323 INFO spawned: 'httpd' with pid 6212
+2019-04-18 22:34:08,383 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-04-18 22:36:02,345 INFO stopped: httpd (exit status 0)
+2019-04-18 22:36:03,350 INFO spawned: 'httpd' with pid 6541
+2019-04-18 22:36:04,416 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-04-18 22:37:54,958 INFO stopped: httpd (exit status 0)
+2019-04-18 22:37:55,963 INFO spawned: 'httpd' with pid 6886
+2019-04-18 22:37:57,013 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-04-18 22:43:50,531 INFO stopped: httpd (exit status 0)
+2019-04-18 22:43:51,535 INFO spawned: 'httpd' with pid 7325
+2019-04-18 22:43:52,612 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-04-18 23:10:58,511 INFO stopped: httpd (exit status 0)
+2019-04-18 23:10:59,516 INFO spawned: 'httpd' with pid 8557
+2019-04-18 23:11:00,577 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-04-18 23:49:58,876 INFO stopped: httpd (exit status 0)
+2019-04-18 23:49:59,881 INFO spawned: 'httpd' with pid 10094
+2019-04-18 23:50:00,933 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-04-18 23:59:23,778 INFO stopped: httpd (exit status 0)
+2019-04-18 23:59:24,783 INFO spawned: 'httpd' with pid 10683
+2019-04-18 23:59:25,833 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-04-19 00:02:23,698 INFO stopped: httpd (exit status 0)
+2019-04-19 00:02:24,703 INFO spawned: 'httpd' with pid 11115
+2019-04-19 00:02:25,751 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-04-19 00:34:52,034 INFO stopped: httpd (exit status 0)
+2019-04-19 00:34:53,039 INFO spawned: 'httpd' with pid 12488
+2019-04-19 00:34:54,089 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-04-19 00:58:56,453 INFO stopped: httpd (exit status 0)
+2019-04-19 00:58:57,458 INFO spawned: 'httpd' with pid 13541
+2019-04-19 00:58:58,516 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-04-19 01:10:03,375 INFO stopped: httpd (exit status 0)
+2019-04-19 01:10:04,380 INFO spawned: 'httpd' with pid 14255
+2019-04-19 01:10:05,415 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-04-19 01:21:33,380 INFO stopped: httpd (exit status 0)
+2019-04-19 01:21:34,385 INFO spawned: 'httpd' with pid 14845
+2019-04-19 01:21:35,450 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-04-19 01:26:10,844 INFO stopped: httpd (exit status 0)
+2019-04-19 01:26:11,849 INFO spawned: 'httpd' with pid 15289
+2019-04-19 01:26:12,901 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-04-19 01:30:00,664 INFO stopped: httpd (exit status 0)
+2019-04-19 01:30:01,669 INFO spawned: 'httpd' with pid 15655
+2019-04-19 01:30:02,701 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-04-19 01:34:25,066 INFO stopped: httpd (exit status 0)
+2019-04-19 01:34:26,071 INFO spawned: 'httpd' with pid 16066
+2019-04-19 01:34:27,132 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-04-19 01:46:46,095 INFO stopped: httpd (exit status 0)
+2019-04-19 01:46:47,100 INFO spawned: 'httpd' with pid 16730
+2019-04-19 01:46:48,146 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-04-19 01:53:06,102 INFO stopped: httpd (exit status 0)
+2019-04-19 01:53:07,107 INFO spawned: 'httpd' with pid 17277
+2019-04-19 01:53:08,156 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-04-19 02:24:59,169 INFO stopped: httpd (exit status 0)
+2019-04-19 02:25:00,174 INFO spawned: 'httpd' with pid 18626
+2019-04-19 02:25:01,213 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-04-19 02:38:43,122 INFO stopped: httpd (exit status 0)
+2019-04-19 02:38:44,127 INFO spawned: 'httpd' with pid 19379
+2019-04-19 02:38:45,163 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-04-19 02:44:38,940 INFO stopped: httpd (exit status 0)
+2019-04-19 02:44:39,945 INFO spawned: 'httpd' with pid 19822
+2019-04-19 02:44:40,981 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-04-19 02:55:27,726 INFO stopped: httpd (exit status 0)
+2019-04-19 02:55:28,731 INFO spawned: 'httpd' with pid 20410
+2019-04-19 02:55:29,807 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-04-19 03:38:55,175 INFO stopped: httpd (exit status 0)
+2019-04-19 03:38:56,180 INFO spawned: 'httpd' with pid 22125
+2019-04-19 03:38:57,236 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+
+
+
+-------------------------------------
+/var/log/httpd/error_log
+-------------------------------------
+[Fri Apr 19 02:38:44.187017 2019] [core:notice] [pid 19379] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Fri Apr 19 02:38:46.916430 2019] [:error] [pid 19385] [client 127.0.0.1:49910] Target WSGI script not found or unable to stat: /opt/python/current/app/application.py
+[Fri Apr 19 02:38:47.918707 2019] [:error] [pid 19386] [client 127.0.0.1:49912] Target WSGI script not found or unable to stat: /opt/python/current/app/application.py
+[Fri Apr 19 02:38:48.920944 2019] [:error] [pid 19387] [client 127.0.0.1:49914] Target WSGI script not found or unable to stat: /opt/python/current/app/application.py
+[Fri Apr 19 02:38:49.923047 2019] [:error] [pid 19388] [client 127.0.0.1:49916] Target WSGI script not found or unable to stat: /opt/python/current/app/application.py
+[Fri Apr 19 02:40:29.583371 2019] [:error] [pid 19389] [client 104.183.145.31:55377] Target WSGI script not found or unable to stat: /opt/python/current/app/application.py
+[Fri Apr 19 02:40:38.754899 2019] [:error] [pid 19451] [client 104.183.145.31:55378] Target WSGI script not found or unable to stat: /opt/python/current/app/application.py
+[Fri Apr 19 02:41:04.982508 2019] [:error] [pid 19385] [client 173.62.207.188:36216] Target WSGI script not found or unable to stat: /opt/python/current/app/application.py
+[Fri Apr 19 02:41:42.202908 2019] [:error] [pid 19386] [client 173.62.207.188:36218] Target WSGI script not found or unable to stat: /opt/python/current/app/application.py
+[Fri Apr 19 02:41:50.767772 2019] [:error] [pid 19387] [client 104.183.145.31:55403] Target WSGI script not found or unable to stat: /opt/python/current/app/application.py
+[Fri Apr 19 02:41:52.670718 2019] [:error] [pid 19388] [client 173.62.207.188:36220] Target WSGI script not found or unable to stat: /opt/python/current/app/application.py
+[Fri Apr 19 02:41:52.860548 2019] [:error] [pid 19388] [client 173.62.207.188:36220] Target WSGI script not found or unable to stat: /opt/python/current/app/application.py
+[Fri Apr 19 02:42:47.447626 2019] [:error] [pid 19389] [client 104.183.145.31:55410] Target WSGI script not found or unable to stat: /opt/python/current/app/application.py
+[Fri Apr 19 02:43:18.177839 2019] [:error] [pid 19451] [client 104.183.145.31:55411] Target WSGI script not found or unable to stat: /opt/python/current/app/application.py
+[Fri Apr 19 02:43:24.465490 2019] [:error] [pid 19385] [client 104.183.145.31:55414] Target WSGI script not found or unable to stat: /opt/python/current/app/application.py
+[Fri Apr 19 02:44:38.928070 2019] [mpm_prefork:notice] [pid 19379] AH00169: caught SIGTERM, shutting down
+[Fri Apr 19 02:44:39.981256 2019] [suexec:notice] [pid 19822] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Fri Apr 19 02:44:39.997739 2019] [so:warn] [pid 19822] AH01574: module wsgi_module is already loaded, skipping
+[Fri Apr 19 02:44:39.999892 2019] [http2:warn] [pid 19822] AH10034: The mpm module (prefork.c) is not supported by mod_http2. The mpm determines how things are processed in your server. HTTP/2 has more demands in this regard and the currently selected mpm will just not do. This is an advisory warning. Your server will continue to work, but the HTTP/2 protocol will be inactive.
+[Fri Apr 19 02:44:39.999902 2019] [http2:warn] [pid 19822] AH02951: mod_ssl does not seem to be enabled
+[Fri Apr 19 02:44:40.000470 2019] [lbmethod_heartbeat:notice] [pid 19822] AH02282: No slotmem from mod_heartmonitor
+[Fri Apr 19 02:44:40.000543 2019] [:warn] [pid 19822] mod_wsgi: Compiled for Python/3.6.2.
+[Fri Apr 19 02:44:40.000548 2019] [:warn] [pid 19822] mod_wsgi: Runtime using Python/3.6.7.
+[Fri Apr 19 02:44:40.003156 2019] [mpm_prefork:notice] [pid 19822] AH00163: Apache/2.4.38 (Amazon) mod_wsgi/3.5 Python/3.6.7 configured -- resuming normal operations
+[Fri Apr 19 02:44:40.003176 2019] [core:notice] [pid 19822] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Fri Apr 19 02:55:27.667102 2019] [mpm_prefork:notice] [pid 19822] AH00169: caught SIGTERM, shutting down
+[Fri Apr 19 02:55:28.807224 2019] [suexec:notice] [pid 20410] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Fri Apr 19 02:55:28.823973 2019] [so:warn] [pid 20410] AH01574: module wsgi_module is already loaded, skipping
+[Fri Apr 19 02:55:28.826334 2019] [http2:warn] [pid 20410] AH10034: The mpm module (prefork.c) is not supported by mod_http2. The mpm determines how things are processed in your server. HTTP/2 has more demands in this regard and the currently selected mpm will just not do. This is an advisory warning. Your server will continue to work, but the HTTP/2 protocol will be inactive.
+[Fri Apr 19 02:55:28.826348 2019] [http2:warn] [pid 20410] AH02951: mod_ssl does not seem to be enabled
+[Fri Apr 19 02:55:28.826912 2019] [lbmethod_heartbeat:notice] [pid 20410] AH02282: No slotmem from mod_heartmonitor
+[Fri Apr 19 02:55:28.826976 2019] [:warn] [pid 20410] mod_wsgi: Compiled for Python/3.6.2.
+[Fri Apr 19 02:55:28.826981 2019] [:warn] [pid 20410] mod_wsgi: Runtime using Python/3.6.7.
+[Fri Apr 19 02:55:28.829610 2019] [mpm_prefork:notice] [pid 20410] AH00163: Apache/2.4.38 (Amazon) mod_wsgi/3.5 Python/3.6.7 configured -- resuming normal operations
+[Fri Apr 19 02:55:28.829639 2019] [core:notice] [pid 20410] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Fri Apr 19 02:56:35.630759 2019] [core:error] [pid 20417] [client 127.0.0.1:50140] Script timed out before returning headers: application.py
+[Fri Apr 19 02:56:39.629896 2019] [core:error] [pid 20418] [client 127.0.0.1:50142] Script timed out before returning headers: application.py
+[Fri Apr 19 02:56:43.632704 2019] [core:error] [pid 20420] [client 127.0.0.1:50144] Script timed out before returning headers: application.py
+[Fri Apr 19 02:57:20.986352 2019] [core:error] [pid 20419] [client 173.62.207.188:36348] Script timed out before returning headers: application.py
+[Fri Apr 19 02:58:47.511757 2019] [core:error] [pid 20483] [client 104.183.145.31:55582] Script timed out before returning headers: application.py
+[Fri Apr 19 03:00:36.881767 2019] [core:error] [pid 20416] [client 127.0.0.1:50138] End of script output before headers: application.py
+[Fri Apr 19 03:31:22.469775 2019] [core:error] [pid 20491] [client 173.62.207.188:39004] End of script output before headers: application.py
+[Fri Apr 19 03:38:52.148457 2019] [mpm_prefork:notice] [pid 20410] AH00169: caught SIGTERM, shutting down
+[Fri Apr 19 03:38:56.237014 2019] [suexec:notice] [pid 22125] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Fri Apr 19 03:38:56.253657 2019] [so:warn] [pid 22125] AH01574: module wsgi_module is already loaded, skipping
+[Fri Apr 19 03:38:56.255989 2019] [http2:warn] [pid 22125] AH10034: The mpm module (prefork.c) is not supported by mod_http2. The mpm determines how things are processed in your server. HTTP/2 has more demands in this regard and the currently selected mpm will just not do. This is an advisory warning. Your server will continue to work, but the HTTP/2 protocol will be inactive.
+[Fri Apr 19 03:38:56.256003 2019] [http2:warn] [pid 22125] AH02951: mod_ssl does not seem to be enabled
+[Fri Apr 19 03:38:56.256573 2019] [lbmethod_heartbeat:notice] [pid 22125] AH02282: No slotmem from mod_heartmonitor
+[Fri Apr 19 03:38:56.256641 2019] [:warn] [pid 22125] mod_wsgi: Compiled for Python/3.6.2.
+[Fri Apr 19 03:38:56.256646 2019] [:warn] [pid 22125] mod_wsgi: Runtime using Python/3.6.7.
+[Fri Apr 19 03:38:56.259203 2019] [mpm_prefork:notice] [pid 22125] AH00163: Apache/2.4.38 (Amazon) mod_wsgi/3.5 Python/3.6.7 configured -- resuming normal operations
+[Fri Apr 19 03:38:56.259225 2019] [core:notice] [pid 22125] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Fri Apr 19 03:39:02.531902 2019] [:error] [pid 22130] [remote 127.0.0.1:0] mod_wsgi (pid=22130): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Fri Apr 19 03:39:02.538363 2019] [:error] [pid 22130] [remote 127.0.0.1:0] mod_wsgi (pid=22130): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
+[Fri Apr 19 03:39:02.575638 2019] [:error] [pid 22130] [remote 127.0.0.1:0] Traceback (most recent call last):
+[Fri Apr 19 03:39:02.575689 2019] [:error] [pid 22130] [remote 127.0.0.1:0]   File "/opt/python/current/app/application.py", line 8, in <module>
+[Fri Apr 19 03:39:02.575694 2019] [:error] [pid 22130] [remote 127.0.0.1:0]     model = dill.load(p)
+[Fri Apr 19 03:39:02.575700 2019] [:error] [pid 22130] [remote 127.0.0.1:0]   File "/opt/python/run/venv/local/lib/python3.6/site-packages/dill/_dill.py", line 305, in load
+[Fri Apr 19 03:39:02.575703 2019] [:error] [pid 22130] [remote 127.0.0.1:0]     obj = pik.load()
+[Fri Apr 19 03:39:02.575799 2019] [:error] [pid 22130] [remote 127.0.0.1:0] MemoryError
+[Fri Apr 19 03:39:05.528656 2019] [:error] [pid 22130] [remote 127.0.0.1:52] mod_wsgi (pid=22130): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Fri Apr 19 03:39:05.529099 2019] [:error] [pid 22130] [remote 127.0.0.1:52] mod_wsgi (pid=22130): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
+[Fri Apr 19 03:39:05.529243 2019] [:error] [pid 22130] [remote 127.0.0.1:52] Traceback (most recent call last):
+[Fri Apr 19 03:39:05.529277 2019] [:error] [pid 22130] [remote 127.0.0.1:52]   File "/opt/python/current/app/application.py", line 8, in <module>
+[Fri Apr 19 03:39:05.529281 2019] [:error] [pid 22130] [remote 127.0.0.1:52]     model = dill.load(p)
+[Fri Apr 19 03:39:05.529288 2019] [:error] [pid 22130] [remote 127.0.0.1:52]   File "/opt/python/run/venv/local/lib/python3.6/site-packages/dill/_dill.py", line 305, in load
+[Fri Apr 19 03:39:05.529291 2019] [:error] [pid 22130] [remote 127.0.0.1:52]     obj = pik.load()
+[Fri Apr 19 03:39:05.529306 2019] [:error] [pid 22130] [remote 127.0.0.1:52] MemoryError
+[Fri Apr 19 03:39:08.318105 2019] [:error] [pid 22130] [remote 127.0.0.1:56] mod_wsgi (pid=22130): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Fri Apr 19 03:39:08.318201 2019] [:error] [pid 22130] [remote 127.0.0.1:56] mod_wsgi (pid=22130): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
+[Fri Apr 19 03:39:08.320397 2019] [:error] [pid 22130] [remote 127.0.0.1:56] Traceback (most recent call last):
+[Fri Apr 19 03:39:08.320436 2019] [:error] [pid 22130] [remote 127.0.0.1:56]   File "/opt/python/current/app/application.py", line 8, in <module>
+[Fri Apr 19 03:39:08.320440 2019] [:error] [pid 22130] [remote 127.0.0.1:56]     model = dill.load(p)
+[Fri Apr 19 03:39:08.320448 2019] [:error] [pid 22130] [remote 127.0.0.1:56]   File "/opt/python/run/venv/local/lib/python3.6/site-packages/dill/_dill.py", line 305, in load
+[Fri Apr 19 03:39:08.320452 2019] [:error] [pid 22130] [remote 127.0.0.1:56]     obj = pik.load()
+[Fri Apr 19 03:39:08.320468 2019] [:error] [pid 22130] [remote 127.0.0.1:56] MemoryError
+[Fri Apr 19 03:39:11.096056 2019] [:error] [pid 22130] [remote 127.0.0.1:47928] mod_wsgi (pid=22130): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Fri Apr 19 03:39:11.096160 2019] [:error] [pid 22130] [remote 127.0.0.1:47928] mod_wsgi (pid=22130): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
+[Fri Apr 19 03:39:11.097518 2019] [:error] [pid 22130] [remote 127.0.0.1:47928] Traceback (most recent call last):
+[Fri Apr 19 03:39:11.097555 2019] [:error] [pid 22130] [remote 127.0.0.1:47928]   File "/opt/python/current/app/application.py", line 8, in <module>
+[Fri Apr 19 03:39:11.097562 2019] [:error] [pid 22130] [remote 127.0.0.1:47928]     model = dill.load(p)
+[Fri Apr 19 03:39:11.097569 2019] [:error] [pid 22130] [remote 127.0.0.1:47928]   File "/opt/python/run/venv/local/lib/python3.6/site-packages/dill/_dill.py", line 305, in load
+[Fri Apr 19 03:39:11.097572 2019] [:error] [pid 22130] [remote 127.0.0.1:47928]     obj = pik.load()
+[Fri Apr 19 03:39:11.097589 2019] [:error] [pid 22130] [remote 127.0.0.1:47928] MemoryError
+[Fri Apr 19 03:39:31.358601 2019] [:error] [pid 22130] [remote 173.62.207.188:25656] mod_wsgi (pid=22130): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Fri Apr 19 03:39:31.358744 2019] [:error] [pid 22130] [remote 173.62.207.188:25656] mod_wsgi (pid=22130): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
+[Fri Apr 19 03:39:31.365340 2019] [:error] [pid 22130] [remote 173.62.207.188:25656] Traceback (most recent call last):
+[Fri Apr 19 03:39:31.365382 2019] [:error] [pid 22130] [remote 173.62.207.188:25656]   File "/opt/python/current/app/application.py", line 8, in <module>
+[Fri Apr 19 03:39:31.365387 2019] [:error] [pid 22130] [remote 173.62.207.188:25656]     model = dill.load(p)
+[Fri Apr 19 03:39:31.365393 2019] [:error] [pid 22130] [remote 173.62.207.188:25656]   File "/opt/python/run/venv/local/lib/python3.6/site-packages/dill/_dill.py", line 305, in load
+[Fri Apr 19 03:39:31.365397 2019] [:error] [pid 22130] [remote 173.62.207.188:25656]     obj = pik.load()
+[Fri Apr 19 03:39:31.365414 2019] [:error] [pid 22130] [remote 173.62.207.188:25656] MemoryError
+[Fri Apr 19 03:39:44.267312 2019] [:error] [pid 22130] [remote 173.62.207.188:56] mod_wsgi (pid=22130): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Fri Apr 19 03:39:44.268490 2019] [:error] [pid 22130] [remote 173.62.207.188:56] mod_wsgi (pid=22130): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
+[Fri Apr 19 03:39:44.268673 2019] [:error] [pid 22130] [remote 173.62.207.188:56] Traceback (most recent call last):
+[Fri Apr 19 03:39:44.268705 2019] [:error] [pid 22130] [remote 173.62.207.188:56]   File "/opt/python/current/app/application.py", line 8, in <module>
+[Fri Apr 19 03:39:44.268721 2019] [:error] [pid 22130] [remote 173.62.207.188:56]     model = dill.load(p)
+[Fri Apr 19 03:39:44.268728 2019] [:error] [pid 22130] [remote 173.62.207.188:56]   File "/opt/python/run/venv/local/lib/python3.6/site-packages/dill/_dill.py", line 305, in load
+[Fri Apr 19 03:39:44.268731 2019] [:error] [pid 22130] [remote 173.62.207.188:56]     obj = pik.load()
+[Fri Apr 19 03:39:44.268747 2019] [:error] [pid 22130] [remote 173.62.207.188:56] MemoryError
+
+
+
+-------------------------------------
+/var/log/httpd/access_log
+-------------------------------------
+127.0.0.1 (-) - - [19/Apr/2019:00:02:27 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+173.62.207.188 (-) - - [19/Apr/2019:00:08:11 +0000] "POST / HTTP/1.1" 500 527 "-" "python-requests/2.20.1"
+3.85.16.180 (-) - - [19/Apr/2019:00:17:30 +0000] "GET / HTTP/1.1" 500 527 "-" "Slackbot-LinkExpanding 1.0 (+https://api.slack.com/robots)"
+173.62.207.188 (-) - - [19/Apr/2019:00:17:55 +0000] "POST / HTTP/1.1" 500 527 "-" "python-requests/2.20.1"
+104.183.145.31 (-) - - [19/Apr/2019:00:18:44 +0000] "POST / HTTP/1.1" 500 527 "-" "python-requests/2.21.0"
+100.26.240.212 (-) - - [19/Apr/2019:00:17:20 +0000] "GET / HTTP/1.1" 500 527 "-" "Slackbot-LinkExpanding 1.0 (+https://api.slack.com/robots)"
+127.0.0.1 (-) - - [19/Apr/2019:00:34:59 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:00:35:03 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:00:35:07 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+173.62.207.188 (-) - - [19/Apr/2019:00:36:14 +0000] "POST / HTTP/1.1" 500 527 "-" "python-requests/2.20.1"
+127.0.0.1 (-) - - [19/Apr/2019:00:34:55 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+104.183.145.31 (-) - - [19/Apr/2019:00:44:23 +0000] "POST / HTTP/1.1" 500 527 "-" "python-requests/2.21.0"
+173.62.207.188 (-) - - [19/Apr/2019:00:41:34 +0000] "POST / HTTP/1.1" 500 527 "-" "python-requests/2.20.1"
+127.0.0.1 (-) - - [19/Apr/2019:00:59:04 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+173.62.207.188 (-) - - [19/Apr/2019:00:59:07 +0000] "POST / HTTP/1.1" 500 527 "-" "python-requests/2.20.1"
+127.0.0.1 (-) - - [19/Apr/2019:00:59:08 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:00:59:12 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:00:59:00 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+173.62.207.188 (-) - - [19/Apr/2019:01:05:29 +0000] "POST / HTTP/1.1" 500 527 "-" "python-requests/2.20.1"
+104.183.145.31 (-) - - [19/Apr/2019:01:06:47 +0000] "POST / HTTP/1.1" 500 527 "-" "python-requests/2.21.0"
+127.0.0.1 (-) - - [19/Apr/2019:01:10:07 +0000] "GET / HTTP/1.1" 405 178 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:01:10:08 +0000] "GET / HTTP/1.1" 405 178 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:01:10:09 +0000] "GET / HTTP/1.1" 405 178 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:01:10:10 +0000] "GET / HTTP/1.1" 405 178 "-" "Python-urllib/2.7"
+173.62.207.188 (-) - - [19/Apr/2019:01:10:22 +0000] "POST / HTTP/1.1" 500 290 "-" "python-requests/2.20.1"
+127.0.0.1 (-) - - [19/Apr/2019:01:21:37 +0000] "GET / HTTP/1.1" 405 178 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:01:21:38 +0000] "GET / HTTP/1.1" 405 178 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:01:21:39 +0000] "GET / HTTP/1.1" 405 178 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:01:21:40 +0000] "GET / HTTP/1.1" 405 178 "-" "Python-urllib/2.7"
+173.62.207.188 (-) - - [19/Apr/2019:01:22:35 +0000] "POST / HTTP/1.1" 200 27 "-" "python-requests/2.20.1"
+104.183.145.31 (-) - - [19/Apr/2019:01:22:56 +0000] "POST / HTTP/1.1" 200 28 "-" "python-requests/2.21.0"
+127.0.0.1 (-) - - [19/Apr/2019:01:26:14 +0000] "GET / HTTP/1.1" 405 178 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:01:26:15 +0000] "GET / HTTP/1.1" 405 178 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:01:26:16 +0000] "GET / HTTP/1.1" 405 178 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:01:26:17 +0000] "GET / HTTP/1.1" 405 178 "-" "Python-urllib/2.7"
+173.62.207.188 (-) - - [19/Apr/2019:01:26:21 +0000] "POST / HTTP/1.1" 500 290 "-" "python-requests/2.20.1"
+127.0.0.1 (-) - - [19/Apr/2019:01:30:04 +0000] "GET / HTTP/1.1" 405 178 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:01:30:05 +0000] "GET / HTTP/1.1" 405 178 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:01:30:06 +0000] "GET / HTTP/1.1" 405 178 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:01:30:07 +0000] "GET / HTTP/1.1" 405 178 "-" "Python-urllib/2.7"
+173.62.207.188 (-) - - [19/Apr/2019:01:32:03 +0000] "POST / HTTP/1.1" 500 290 "-" "python-requests/2.20.1"
+127.0.0.1 (-) - - [19/Apr/2019:01:34:32 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:01:34:36 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:01:34:40 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+173.62.207.188 (-) - - [19/Apr/2019:01:35:06 +0000] "POST / HTTP/1.1" 500 527 "-" "python-requests/2.20.1"
+127.0.0.1 (-) - - [19/Apr/2019:01:34:28 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:01:46:53 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:01:46:57 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:01:47:01 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+173.62.207.188 (-) - - [19/Apr/2019:01:47:17 +0000] "POST / HTTP/1.1" 500 527 "-" "python-requests/2.20.1"
+127.0.0.1 (-) - - [19/Apr/2019:01:46:49 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:01:53:13 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:01:53:17 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:01:53:21 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+173.62.207.188 (-) - - [19/Apr/2019:01:56:13 +0000] "POST / HTTP/1.1" 500 527 "-" "python-requests/2.20.1"
+127.0.0.1 (-) - - [19/Apr/2019:01:53:09 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+173.62.207.188 (-) - - [19/Apr/2019:02:00:28 +0000] "POST / HTTP/1.1" 500 527 "-" "python-requests/2.20.1"
+104.183.145.31 (-) - - [19/Apr/2019:02:00:54 +0000] "POST / HTTP/1.1" 500 527 "-" "python-requests/2.21.0"
+173.62.207.188 (-) - - [19/Apr/2019:01:59:30 +0000] "POST / HTTP/1.1" 500 527 "-" "python-requests/2.20.1"
+127.0.0.1 (-) - - [19/Apr/2019:02:25:06 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:02:25:10 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:02:25:14 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+173.62.207.188 (-) - - [19/Apr/2019:02:25:50 +0000] "POST / HTTP/1.1" 500 527 "-" "python-requests/2.20.1"
+127.0.0.1 (-) - - [19/Apr/2019:02:25:02 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:02:38:46 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:02:38:47 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:02:38:48 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:02:38:49 +0000] "GET / HTTP/1.1" 404 198 "-" "Python-urllib/2.7"
+104.183.145.31 (-) - - [19/Apr/2019:02:40:29 +0000] "POST / HTTP/1.1" 404 198 "-" "python-requests/2.21.0"
+104.183.145.31 (-) - - [19/Apr/2019:02:40:38 +0000] "POST / HTTP/1.1" 404 198 "-" "python-requests/2.21.0"
+173.62.207.188 (-) - - [19/Apr/2019:02:41:04 +0000] "POST / HTTP/1.1" 404 198 "-" "python-requests/2.20.1"
+173.62.207.188 (-) - - [19/Apr/2019:02:41:42 +0000] "POST / HTTP/1.1" 404 198 "-" "python-requests/2.20.1"
+104.183.145.31 (-) - - [19/Apr/2019:02:41:50 +0000] "POST / HTTP/1.1" 404 198 "-" "python-requests/2.21.0"
+173.62.207.188 (-) - - [19/Apr/2019:02:41:52 +0000] "GET / HTTP/1.1" 404 198 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0"
+173.62.207.188 (-) - - [19/Apr/2019:02:41:52 +0000] "GET /favicon.ico HTTP/1.1" 404 209 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0"
+104.183.145.31 (-) - - [19/Apr/2019:02:42:47 +0000] "POST / HTTP/1.1" 404 198 "-" "python-requests/2.21.0"
+104.183.145.31 (-) - - [19/Apr/2019:02:43:18 +0000] "POST / HTTP/1.1" 404 198 "-" "python-requests/2.21.0"
+104.183.145.31 (-) - - [19/Apr/2019:02:43:24 +0000] "POST / HTTP/1.1" 404 198 "-" "python-requests/2.21.0"
+127.0.0.1 (-) - - [19/Apr/2019:02:44:42 +0000] "GET / HTTP/1.1" 405 178 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:02:44:43 +0000] "GET / HTTP/1.1" 405 178 "-" "Python-urllib/2.7"
+173.62.207.188 (-) - - [19/Apr/2019:02:44:44 +0000] "POST / HTTP/1.1" 200 48 "-" "python-requests/2.20.1"
+127.0.0.1 (-) - - [19/Apr/2019:02:44:44 +0000] "GET / HTTP/1.1" 405 178 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:02:44:45 +0000] "GET / HTTP/1.1" 405 178 "-" "Python-urllib/2.7"
+173.62.207.188 (-) - - [19/Apr/2019:02:44:48 +0000] "POST / HTTP/1.1" 200 48 "-" "python-requests/2.20.1"
+104.183.145.31 (-) - - [19/Apr/2019:02:44:53 +0000] "POST / HTTP/1.1" 200 51 "-" "python-requests/2.21.0"
+173.62.207.188 (-) - - [19/Apr/2019:02:44:58 +0000] "POST / HTTP/1.1" 200 48 "-" "python-requests/2.20.1"
+130.25.204.90 (-) - - [19/Apr/2019:02:48:27 +0000] "GET / HTTP/1.0" 405 178 "-" "-"
+127.0.0.1 (-) - - [19/Apr/2019:02:55:35 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:02:55:39 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:02:55:43 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+173.62.207.188 (-) - - [19/Apr/2019:02:56:20 +0000] "POST / HTTP/1.1" 500 527 "-" "python-requests/2.20.1"
+104.183.145.31 (-) - - [19/Apr/2019:02:57:47 +0000] "POST / HTTP/1.1" 500 527 "-" "python-requests/2.21.0"
+127.0.0.1 (-) - - [19/Apr/2019:02:55:31 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+173.62.207.188 (-) - - [19/Apr/2019:03:26:17 +0000] "POST / HTTP/1.1" 500 527 "-" "python-requests/2.20.1"
+127.0.0.1 (-) - - [19/Apr/2019:03:38:58 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:03:39:03 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:03:39:06 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:03:39:09 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+173.62.207.188 (-) - - [19/Apr/2019:03:39:28 +0000] "POST / HTTP/1.1" 500 527 "-" "python-requests/2.20.1"
+173.62.207.188 (-) - - [19/Apr/2019:03:39:41 +0000] "POST / HTTP/1.1" 500 527 "-" "python-requests/2.20.1"
+
+
+
+-------------------------------------
+/var/log/eb-activity.log
+-------------------------------------
+[2019-04-19T03:38:42.314Z] INFO  [21958] - [Application update infere1@27/AppDeployStage0/EbExtensionPreBuild] : Starting activity...
+[2019-04-19T03:38:42.716Z] INFO  [21958] - [Application update infere1@27/AppDeployStage0/EbExtensionPreBuild/Infra-EmbeddedPreBuild] : Starting activity...
+[2019-04-19T03:38:42.716Z] INFO  [21958] - [Application update infere1@27/AppDeployStage0/EbExtensionPreBuild/Infra-EmbeddedPreBuild] : Completed activity.
+[2019-04-19T03:38:42.732Z] INFO  [21958] - [Application update infere1@27/AppDeployStage0/EbExtensionPreBuild] : Completed activity.
+[2019-04-19T03:38:42.732Z] INFO  [21958] - [Application update infere1@27/AppDeployStage0/AppDeployPreHook] : Starting activity...
+[2019-04-19T03:38:42.732Z] INFO  [21958] - [Application update infere1@27/AppDeployStage0/AppDeployPreHook/01_configure_xray.sh] : Starting activity...
+[2019-04-19T03:38:42.839Z] INFO  [21958] - [Application update infere1@27/AppDeployStage0/AppDeployPreHook/01_configure_xray.sh] : Completed activity.
+[2019-04-19T03:38:42.840Z] INFO  [21958] - [Application update infere1@27/AppDeployStage0/AppDeployPreHook/01new.py] : Starting activity...
+[2019-04-19T03:38:43.164Z] INFO  [21958] - [Application update infere1@27/AppDeployStage0/AppDeployPreHook/01new.py] : Completed activity.
+[2019-04-19T03:38:43.164Z] INFO  [21958] - [Application update infere1@27/AppDeployStage0/AppDeployPreHook/02unzip.py] : Starting activity...
+[2019-04-19T03:38:44.699Z] INFO  [21958] - [Application update infere1@27/AppDeployStage0/AppDeployPreHook/02unzip.py] : Completed activity. Result:
+  Archive:  /opt/elasticbeanstalk/deploy/appsource/source_bundle
+    inflating: /opt/python/ondeck/app/predict.pk  
+    inflating: /opt/python/ondeck/app/application.py  
+    inflating: /opt/python/ondeck/app/baggingPU.py  
+    inflating: /opt/python/ondeck/app/requirements.txt  
+[2019-04-19T03:38:44.700Z] INFO  [21958] - [Application update infere1@27/AppDeployStage0/AppDeployPreHook/03deploy.py] : Starting activity...
+[2019-04-19T03:38:49.809Z] INFO  [21958] - [Application update infere1@27/AppDeployStage0/AppDeployPreHook/03deploy.py] : Completed activity. Result:
+  Requirement already satisfied: Click==7.0 in /opt/python/run/venv/lib/python3.6/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 1))
+  Collecting dill==0.2.9 (from -r /opt/python/ondeck/app/requirements.txt (line 2))
+    Downloading https://files.pythonhosted.org/packages/fe/42/bfe2e0857bc284cbe6a011d93f2a9ad58a22cb894461b199ae72cfef0f29/dill-0.2.9.tar.gz (150kB)
+  Requirement already satisfied: Flask==1.0.2 in /opt/python/run/venv/lib/python3.6/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 3))
+  Requirement already satisfied: itsdangerous==1.1.0 in /opt/python/run/venv/lib/python3.6/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 4))
+  Requirement already satisfied: Jinja2==2.10.1 in /opt/python/run/venv/lib/python3.6/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 5))
+  Requirement already satisfied: MarkupSafe==1.1.1 in /opt/python/run/venv/lib64/python3.6/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 6))
+  Requirement already satisfied: numpy==1.16.2 in /opt/python/run/venv/lib64/python3.6/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 7))
+  Requirement already satisfied: pandas==0.24.2 in /opt/python/run/venv/lib64/python3.6/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 8))
+  Requirement already satisfied: python-dateutil==2.8.0 in /opt/python/run/venv/lib/python3.6/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 9))
+  Requirement already satisfied: pytz==2019.1 in /opt/python/run/venv/lib/python3.6/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 10))
+  Collecting scikit-learn==0.19.1 (from -r /opt/python/ondeck/app/requirements.txt (line 11))
+    Downloading https://files.pythonhosted.org/packages/3d/2d/9fbc7baa5f44bc9e88ffb7ed32721b879bfa416573e85031e16f52569bc9/scikit_learn-0.19.1-cp36-cp36m-manylinux1_x86_64.whl (12.4MB)
+  Requirement already satisfied: scipy==1.2.1 in /opt/python/run/venv/lib64/python3.6/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 12))
+  Requirement already satisfied: six==1.12.0 in /opt/python/run/venv/lib/python3.6/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 13))
+  Requirement already satisfied: Werkzeug==0.15.2 in /opt/python/run/venv/lib/python3.6/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 14))
+  Building wheels for collected packages: dill
+    Running setup.py bdist_wheel for dill: started
+    Running setup.py bdist_wheel for dill: finished with status 'done'
+    Stored in directory: /root/.cache/pip/wheels/5b/d7/0f/e58eae695403de585269f4e4a94e0cd6ca60ec0c202936fa4a
+  Successfully built dill
+  Installing collected packages: dill, scikit-learn
+    Found existing installation: scikit-learn 0.20.2
+      Uninstalling scikit-learn-0.20.2:
+        Successfully uninstalled scikit-learn-0.20.2
+  Successfully installed dill-0.2.9 scikit-learn-0.19.1
+  You are using pip version 9.0.1, however version 19.0.3 is available.
+  You should consider upgrading via the 'pip install --upgrade pip' command.
+[2019-04-19T03:38:49.809Z] INFO  [21958] - [Application update infere1@27/AppDeployStage0/AppDeployPreHook/04configen.py] : Starting activity...
+[2019-04-19T03:38:51.044Z] INFO  [21958] - [Application update infere1@27/AppDeployStage0/AppDeployPreHook/04configen.py] : Completed activity.
+[2019-04-19T03:38:51.044Z] INFO  [21958] - [Application update infere1@27/AppDeployStage0/AppDeployPreHook] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/hooks/appdeploy/pre.
+[2019-04-19T03:38:51.044Z] INFO  [21958] - [Application update infere1@27/AppDeployStage0/EbExtensionPostBuild] : Starting activity...
+[2019-04-19T03:38:51.452Z] INFO  [21958] - [Application update infere1@27/AppDeployStage0/EbExtensionPostBuild/Infra-EmbeddedPostBuild] : Starting activity...
+[2019-04-19T03:38:51.452Z] INFO  [21958] - [Application update infere1@27/AppDeployStage0/EbExtensionPostBuild/Infra-EmbeddedPostBuild] : Completed activity.
+[2019-04-19T03:38:51.468Z] INFO  [21958] - [Application update infere1@27/AppDeployStage0/EbExtensionPostBuild] : Completed activity.
+[2019-04-19T03:38:51.468Z] INFO  [21958] - [Application update infere1@27/AppDeployStage0/InfraCleanEbextension] : Starting activity...
+[2019-04-19T03:38:51.469Z] INFO  [21958] - [Application update infere1@27/AppDeployStage0/InfraCleanEbextension] : Completed activity. Result:
+  Cleaned ebextensions subdirectories from /opt/python/ondeck/app.
+[2019-04-19T03:38:51.469Z] INFO  [21958] - [Application update infere1@27/AppDeployStage0] : Completed activity. Result:
+  Application update - Command CMD-AppDeploy stage 0 completed
+[2019-04-19T03:38:51.469Z] INFO  [21958] - [Application update infere1@27/AppDeployStage1] : Starting activity...
+[2019-04-19T03:38:51.469Z] INFO  [21958] - [Application update infere1@27/AppDeployStage1/AppDeployEnactHook] : Starting activity...
+[2019-04-19T03:38:51.469Z] INFO  [21958] - [Application update infere1@27/AppDeployStage1/AppDeployEnactHook/01flip.py] : Starting activity...
+[2019-04-19T03:39:12.353Z] INFO  [21958] - [Application update infere1@27/AppDeployStage1/AppDeployEnactHook/01flip.py] : Completed activity. Result:
+  httpd: stopped
+  httpd: started
+  httpd                            RUNNING   pid 22125, uptime 0:00:02
+  2019-04-19 03:39:12,305 INFO     Apache is running, but root page is not responding in 3 seconds.
+[2019-04-19T03:39:12.355Z] INFO  [21958] - [Application update infere1@27/AppDeployStage1/AppDeployEnactHook/01stop_xray.sh] : Starting activity...
+[2019-04-19T03:39:12.652Z] INFO  [21958] - [Application update infere1@27/AppDeployStage1/AppDeployEnactHook/01stop_xray.sh] : Completed activity. Result:
+  Executing: if ( initctl status xray | grep start ); then initctl stop xray; fi
+  
+[2019-04-19T03:39:12.652Z] INFO  [21958] - [Application update infere1@27/AppDeployStage1/AppDeployEnactHook/02create_pids_for_monitoring.sh] : Starting activity...
+[2019-04-19T03:39:12.769Z] INFO  [21958] - [Application update infere1@27/AppDeployStage1/AppDeployEnactHook/02create_pids_for_monitoring.sh] : Completed activity. Result:
+  + chmod 0755 /var/run/httpd
+  + /opt/elasticbeanstalk/bin/healthd-track-pidfile --proxy httpd
+  + /opt/elasticbeanstalk/bin/healthd-track-pidfile --name application --location /opt/python/run/supervisord.pid
+[2019-04-19T03:39:12.770Z] INFO  [21958] - [Application update infere1@27/AppDeployStage1/AppDeployEnactHook/02start_xray.sh] : Starting activity...
+[2019-04-19T03:39:12.882Z] INFO  [21958] - [Application update infere1@27/AppDeployStage1/AppDeployEnactHook/02start_xray.sh] : Completed activity.
+[2019-04-19T03:39:12.882Z] INFO  [21958] - [Application update infere1@27/AppDeployStage1/AppDeployEnactHook] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/hooks/appdeploy/enact.
+[2019-04-19T03:39:12.883Z] INFO  [21958] - [Application update infere1@27/AppDeployStage1/AppDeployPostHook] : Starting activity...
+[2019-04-19T03:39:12.884Z] INFO  [21958] - [Application update infere1@27/AppDeployStage1/AppDeployPostHook] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/hooks/appdeploy/post.
+[2019-04-19T03:39:12.884Z] INFO  [21958] - [Application update infere1@27/AppDeployStage1] : Completed activity. Result:
+  Application version switch - Command CMD-AppDeploy stage 1 completed
+[2019-04-19T03:39:12.884Z] INFO  [21958] - [Application update infere1@27/AddonsAfter] : Starting activity...
+[2019-04-19T03:39:12.884Z] INFO  [21958] - [Application update infere1@27/AddonsAfter/ConfigLogRotation] : Starting activity...
+[2019-04-19T03:39:12.886Z] INFO  [21958] - [Application update infere1@27/AddonsAfter/ConfigLogRotation/10-config.sh] : Starting activity...
+[2019-04-19T03:39:12.977Z] INFO  [21958] - [Application update infere1@27/AddonsAfter/ConfigLogRotation/10-config.sh] : Completed activity. Result:
+  Disabled forced hourly log rotation.
+[2019-04-19T03:39:12.977Z] INFO  [21958] - [Application update infere1@27/AddonsAfter/ConfigLogRotation] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/addons/logpublish/hooks/config.
+[2019-04-19T03:39:12.977Z] INFO  [21958] - [Application update infere1@27/AddonsAfter] : Completed activity.
+[2019-04-19T03:39:12.977Z] INFO  [21958] - [Application update infere1@27] : Completed activity. Result:
+  Application update - Command CMD-AppDeploy succeeded
+[2019-04-19T03:45:44.410Z] INFO  [22446] - [CMD-TailLogs] : Starting activity...
+[2019-04-19T03:45:44.410Z] INFO  [22446] - [CMD-TailLogs/AddonsBefore] : Starting activity...
+[2019-04-19T03:45:44.410Z] INFO  [22446] - [CMD-TailLogs/AddonsBefore] : Completed activity.
+[2019-04-19T03:45:44.410Z] INFO  [22446] - [CMD-TailLogs/TailLogs] : Starting activity...
+[2019-04-19T03:45:44.410Z] INFO  [22446] - [CMD-TailLogs/TailLogs/TailLogs] : Starting activity...
+
+
+
+-------------------------------------
+/opt/python/log/sample-app.log
+-------------------------------------
+
+
+
+
+-------------------------------------
+/var/log/eb-commandprocessor.log
+-------------------------------------
+[2019-04-19T02:55:21.423Z] DEBUG [20250] : Running stages of Command CMD-AppDeploy from stage 0 to stage 1...
+[2019-04-19T02:55:21.423Z] INFO  [20250] : Running stage 0 of command CMD-AppDeploy...
+[2019-04-19T02:55:21.423Z] INFO  [20250] : Running leader election...
+[2019-04-19T02:55:21.821Z] INFO  [20250] : Instance is Leader.
+[2019-04-19T02:55:21.821Z] DEBUG [20250] : Loaded 5 actions for stage 0.
+[2019-04-19T02:55:21.821Z] INFO  [20250] : Running 1 of 5 actions: DownloadSourceBundle...
+[2019-04-19T02:55:22.656Z] INFO  [20250] : Running 2 of 5 actions: EbExtensionPreBuild...
+[2019-04-19T02:55:23.022Z] INFO  [20250] : Running 3 of 5 actions: AppDeployPreHook...
+[2019-04-19T02:55:26.600Z] INFO  [20250] : Running 4 of 5 actions: EbExtensionPostBuild...
+[2019-04-19T02:55:27.017Z] INFO  [20250] : Running 5 of 5 actions: InfraCleanEbextension...
+[2019-04-19T02:55:27.018Z] INFO  [20250] : Running stage 1 of command CMD-AppDeploy...
+[2019-04-19T02:55:27.018Z] DEBUG [20250] : Loaded 2 actions for stage 1.
+[2019-04-19T02:55:27.018Z] INFO  [20250] : Running 1 of 2 actions: AppDeployEnactHook...
+[2019-04-19T02:55:47.910Z] INFO  [20250] : Running 2 of 2 actions: AppDeployPostHook...
+[2019-04-19T02:55:47.910Z] INFO  [20250] : Running AddonsAfter for command CMD-AppDeploy...
+[2019-04-19T02:55:47.989Z] INFO  [20250] : Command CMD-AppDeploy succeeded!
+[2019-04-19T02:55:47.990Z] INFO  [20250] : Command processor returning results: 
+{"status":"SUCCESS","api_version":"1.0","results":[{"status":"SUCCESS","msg":"","returncode":0,"events":[]}]}
+[2019-04-19T03:38:39.816Z] DEBUG [21958] : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2019-04-19T03:38:39.816Z] DEBUG [21958] : Checking if the command processor should execute...
+[2019-04-19T03:38:39.818Z] DEBUG [21958] : Checking whether the command is applicable to instance (i-0c92c552958f5ce9e)..
+[2019-04-19T03:38:39.818Z] INFO  [21958] : Command is applicable to this instance (i-0c92c552958f5ce9e)..
+[2019-04-19T03:38:39.818Z] DEBUG [21958] : Checking if the received command stage is valid..
+[2019-04-19T03:38:39.818Z] INFO  [21958] : No stage_num in command. Valid stage..
+[2019-04-19T03:38:39.818Z] INFO  [21958] : Received command CMD-AppDeploy: {"execution_data"=>"{\"leader_election\":\"true\"}", "instance_ids"=>["i-0c92c552958f5ce9e"], "data"=>"manifest_1555645116297", "command_name"=>"CMD-AppDeploy", "api_version"=>"1.0", "resource_name"=>"AWSEBAutoScalingGroup", "request_id"=>"9a4d68ea-6254-11e9-81f6-41719be37ff0"}
+[2019-04-19T03:38:39.818Z] INFO  [21958] : Command processor should execute command.
+[2019-04-19T03:38:39.818Z] DEBUG [21958] : Storing current stage..
+[2019-04-19T03:38:39.818Z] DEBUG [21958] : Stage_num does not exist. Not saving null stage. Returning..
+[2019-04-19T03:38:39.818Z] DEBUG [21958] : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2019-04-19T03:38:39.818Z] DEBUG [21958] : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
+[2019-04-19T03:38:39.819Z] DEBUG [21958] : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
+[2019-04-19T03:38:39.819Z] INFO  [21958] : Found enabled addons: ["logstreaming", "logpublish"].
+[2019-04-19T03:38:39.821Z] INFO  [21958] : Updating Command definition of addon logstreaming.
+[2019-04-19T03:38:39.821Z] INFO  [21958] : Updating Command definition of addon logpublish.
+[2019-04-19T03:38:39.821Z] DEBUG [21958] : Refreshing metadata...
+[2019-04-19T03:38:40.220Z] DEBUG [21958] : Refreshed environment metadata.
+[2019-04-19T03:38:40.221Z] INFO  [21958] : Recreated directory /opt/elasticbeanstalk/deploy/configuration/.
+[2019-04-19T03:38:40.221Z] DEBUG [21958] : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_AppSourceUrlFileContent||url..
+[2019-04-19T03:38:40.221Z] INFO  [21958] : Created appsource url file at /opt/elasticbeanstalk/deploy/configuration/appsourceurl.
+[2019-04-19T03:38:40.221Z] DEBUG [21958] : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent..
+[2019-04-19T03:38:40.223Z] INFO  [21958] : Created container config file at /opt/elasticbeanstalk/deploy/configuration/containerconfiguration.
+[2019-04-19T03:38:40.223Z] DEBUG [21958] : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
+[2019-04-19T03:38:40.224Z] DEBUG [21958] : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
+[2019-04-19T03:38:40.225Z] INFO  [21958] : Found enabled addons: ["logstreaming", "logpublish"].
+[2019-04-19T03:38:40.226Z] INFO  [21958] : Updating Command definition of addon logstreaming.
+[2019-04-19T03:38:40.226Z] INFO  [21958] : Updating Command definition of addon logpublish.
+[2019-04-19T03:38:40.226Z] DEBUG [21958] : Retrieving metadata for key: AWS::CloudFormation::Init||Infra-WriteApplication2||files..
+[2019-04-19T03:38:40.226Z] DEBUG [21958] : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||ManifestFileS3Key..
+[2019-04-19T03:38:40.322Z] INFO  [21958] : Loading manifest from bucket 'elasticbeanstalk-us-east-1-969496461115' using computed S3 key 'resources/environments/e-4rtsveypk9/_runtime/versions/manifest_1555645116297'.
+[2019-04-19T03:38:40.414Z] INFO  [21958] : Updated manifest cache: deployment ID 27 and serial 27.
+[2019-04-19T03:38:40.415Z] DEBUG [21958] : Loaded definition of Command CMD-AppDeploy.
+[2019-04-19T03:38:40.415Z] INFO  [21958] : Executing Application update
+[2019-04-19T03:38:40.415Z] INFO  [21958] : Executing command: CMD-AppDeploy...
+[2019-04-19T03:38:40.415Z] INFO  [21958] : Executing command CMD-AppDeploy activities...
+[2019-04-19T03:38:40.415Z] DEBUG [21958] : Setting environment variables..
+[2019-04-19T03:38:40.415Z] INFO  [21958] : Running AddonsBefore for command CMD-AppDeploy...
+[2019-04-19T03:38:40.539Z] DEBUG [21958] : Running stages of Command CMD-AppDeploy from stage 0 to stage 1...
+[2019-04-19T03:38:40.539Z] INFO  [21958] : Running stage 0 of command CMD-AppDeploy...
+[2019-04-19T03:38:40.539Z] INFO  [21958] : Running leader election...
+[2019-04-19T03:38:40.935Z] INFO  [21958] : Instance is Leader.
+[2019-04-19T03:38:40.935Z] DEBUG [21958] : Loaded 5 actions for stage 0.
+[2019-04-19T03:38:40.935Z] INFO  [21958] : Running 1 of 5 actions: DownloadSourceBundle...
+[2019-04-19T03:38:42.314Z] INFO  [21958] : Running 2 of 5 actions: EbExtensionPreBuild...
+[2019-04-19T03:38:42.732Z] INFO  [21958] : Running 3 of 5 actions: AppDeployPreHook...
+[2019-04-19T03:38:51.044Z] INFO  [21958] : Running 4 of 5 actions: EbExtensionPostBuild...
+[2019-04-19T03:38:51.468Z] INFO  [21958] : Running 5 of 5 actions: InfraCleanEbextension...
+[2019-04-19T03:38:51.469Z] INFO  [21958] : Running stage 1 of command CMD-AppDeploy...
+[2019-04-19T03:38:51.469Z] DEBUG [21958] : Loaded 2 actions for stage 1.
+[2019-04-19T03:38:51.469Z] INFO  [21958] : Running 1 of 2 actions: AppDeployEnactHook...
+[2019-04-19T03:39:12.882Z] INFO  [21958] : Running 2 of 2 actions: AppDeployPostHook...
+[2019-04-19T03:39:12.884Z] INFO  [21958] : Running AddonsAfter for command CMD-AppDeploy...
+[2019-04-19T03:39:12.977Z] INFO  [21958] : Command CMD-AppDeploy succeeded!
+[2019-04-19T03:39:12.980Z] INFO  [21958] : Command processor returning results: 
+{"status":"SUCCESS","api_version":"1.0","results":[{"status":"SUCCESS","msg":"","returncode":0,"events":[]}]}
+[2019-04-19T03:45:44.398Z] DEBUG [22446] : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2019-04-19T03:45:44.399Z] DEBUG [22446] : Checking if the command processor should execute...
+[2019-04-19T03:45:44.402Z] DEBUG [22446] : Checking whether the command is applicable to instance (i-0c92c552958f5ce9e)..
+[2019-04-19T03:45:44.402Z] INFO  [22446] : Command is applicable to this instance (i-0c92c552958f5ce9e)..
+[2019-04-19T03:45:44.402Z] DEBUG [22446] : Checking if the received command stage is valid..
+[2019-04-19T03:45:44.402Z] INFO  [22446] : No stage_num in command. Valid stage..
+[2019-04-19T03:45:44.402Z] INFO  [22446] : Received command CMD-TailLogs: {"execution_data"=>"*", "instance_ids"=>["i-0c92c552958f5ce9e"], "data"=>"9afa06fa-6255-11e9-81f6-41719be37ff0", "command_name"=>"CMD-TailLogs", "api_version"=>"1.0", "resource_name"=>"AWSEBAutoScalingGroup", "request_id"=>"9afa06fa-6255-11e9-81f6-41719be37ff0"}
+[2019-04-19T03:45:44.402Z] INFO  [22446] : Command processor should execute command.
+[2019-04-19T03:45:44.402Z] DEBUG [22446] : Storing current stage..
+[2019-04-19T03:45:44.402Z] DEBUG [22446] : Stage_num does not exist. Not saving null stage. Returning..
+[2019-04-19T03:45:44.402Z] DEBUG [22446] : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2019-04-19T03:45:44.402Z] DEBUG [22446] : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
+[2019-04-19T03:45:44.405Z] DEBUG [22446] : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
+[2019-04-19T03:45:44.406Z] INFO  [22446] : Found enabled addons: ["logstreaming", "logpublish"].
+[2019-04-19T03:45:44.408Z] INFO  [22446] : Updating Command definition of addon logstreaming.
+[2019-04-19T03:45:44.408Z] INFO  [22446] : Updating Command definition of addon logpublish.
+[2019-04-19T03:45:44.408Z] DEBUG [22446] : Loaded definition of Command CMD-TailLogs.
+[2019-04-19T03:45:44.409Z] INFO  [22446] : Executing CMD-TailLogs
+[2019-04-19T03:45:44.410Z] INFO  [22446] : Executing command: CMD-TailLogs...
+[2019-04-19T03:45:44.410Z] INFO  [22446] : Executing command CMD-TailLogs activities...
+[2019-04-19T03:45:44.410Z] DEBUG [22446] : Setting environment variables..
+[2019-04-19T03:45:44.410Z] INFO  [22446] : Running AddonsBefore for command CMD-TailLogs...
+[2019-04-19T03:45:44.410Z] DEBUG [22446] : Running stages of Command CMD-TailLogs from stage 0 to stage 0...
+[2019-04-19T03:45:44.410Z] INFO  [22446] : Running stage 0 of command CMD-TailLogs...
+[2019-04-19T03:45:44.410Z] DEBUG [22446] : Loaded 1 actions for stage 0.
+[2019-04-19T03:45:44.410Z] INFO  [22446] : Running 1 of 1 actions: TailLogs...
+
+
+
