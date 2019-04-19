@@ -1,0 +1,267 @@
+-------------------------------------
+/opt/python/log/supervisord.log
+-------------------------------------
+2019-04-19 04:22:33,347 CRIT Supervisor running as root (no user in config file)
+2019-04-19 04:22:33,366 INFO RPC interface 'supervisor' initialized
+2019-04-19 04:22:33,366 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-04-19 04:22:33,366 INFO supervisord started with pid 2544
+2019-04-19 04:22:34,368 INFO spawned: 'httpd' with pid 2616
+2019-04-19 04:22:35,721 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-04-19 04:23:00,819 INFO stopped: httpd (exit status 0)
+2019-04-19 04:23:01,824 INFO spawned: 'httpd' with pid 2758
+2019-04-19 04:23:02,893 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+
+
+
+-------------------------------------
+/var/log/httpd/error_log
+-------------------------------------
+[Fri Apr 19 04:22:34.724510 2019] [suexec:notice] [pid 2616] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Fri Apr 19 04:22:34.745273 2019] [http2:warn] [pid 2616] AH10034: The mpm module (prefork.c) is not supported by mod_http2. The mpm determines how things are processed in your server. HTTP/2 has more demands in this regard and the currently selected mpm will just not do. This is an advisory warning. Your server will continue to work, but the HTTP/2 protocol will be inactive.
+[Fri Apr 19 04:22:34.745287 2019] [http2:warn] [pid 2616] AH02951: mod_ssl does not seem to be enabled
+[Fri Apr 19 04:22:34.745833 2019] [lbmethod_heartbeat:notice] [pid 2616] AH02282: No slotmem from mod_heartmonitor
+[Fri Apr 19 04:22:34.745894 2019] [:warn] [pid 2616] mod_wsgi: Compiled for Python/3.6.2.
+[Fri Apr 19 04:22:34.745897 2019] [:warn] [pid 2616] mod_wsgi: Runtime using Python/3.6.7.
+[Fri Apr 19 04:22:34.749941 2019] [mpm_prefork:notice] [pid 2616] AH00163: Apache/2.4.38 (Amazon) mod_wsgi/3.5 Python/3.6.7 configured -- resuming normal operations
+[Fri Apr 19 04:22:34.749964 2019] [core:notice] [pid 2616] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Fri Apr 19 04:23:00.807587 2019] [mpm_prefork:notice] [pid 2616] AH00169: caught SIGTERM, shutting down
+[Fri Apr 19 04:23:01.892809 2019] [suexec:notice] [pid 2758] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Fri Apr 19 04:23:01.907155 2019] [so:warn] [pid 2758] AH01574: module wsgi_module is already loaded, skipping
+[Fri Apr 19 04:23:01.952071 2019] [http2:warn] [pid 2758] AH10034: The mpm module (prefork.c) is not supported by mod_http2. The mpm determines how things are processed in your server. HTTP/2 has more demands in this regard and the currently selected mpm will just not do. This is an advisory warning. Your server will continue to work, but the HTTP/2 protocol will be inactive.
+[Fri Apr 19 04:23:01.952087 2019] [http2:warn] [pid 2758] AH02951: mod_ssl does not seem to be enabled
+[Fri Apr 19 04:23:01.952616 2019] [lbmethod_heartbeat:notice] [pid 2758] AH02282: No slotmem from mod_heartmonitor
+[Fri Apr 19 04:23:01.952670 2019] [:warn] [pid 2758] mod_wsgi: Compiled for Python/3.6.2.
+[Fri Apr 19 04:23:01.952672 2019] [:warn] [pid 2758] mod_wsgi: Runtime using Python/3.6.7.
+[Fri Apr 19 04:23:01.957323 2019] [mpm_prefork:notice] [pid 2758] AH00163: Apache/2.4.38 (Amazon) mod_wsgi/3.5 Python/3.6.7 configured -- resuming normal operations
+[Fri Apr 19 04:23:01.957355 2019] [core:notice] [pid 2758] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Fri Apr 19 04:23:08.807420 2019] [:error] [pid 2765] /opt/python/run/venv/local/lib64/python3.6/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+[Fri Apr 19 04:23:08.807456 2019] [:error] [pid 2765]   from numpy.core.umath_tests import inner1d
+[Fri Apr 19 04:23:12.920938 2019] [:error] [pid 2764] /opt/python/run/venv/local/lib64/python3.6/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+[Fri Apr 19 04:23:12.920973 2019] [:error] [pid 2764]   from numpy.core.umath_tests import inner1d
+[Fri Apr 19 04:23:16.838738 2019] [:error] [pid 2766] /opt/python/run/venv/local/lib64/python3.6/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+[Fri Apr 19 04:23:16.838774 2019] [:error] [pid 2766]   from numpy.core.umath_tests import inner1d
+[Fri Apr 19 04:24:16.756434 2019] [core:error] [pid 2769] [client 127.0.0.1:37134] Script timed out before returning headers: application.py
+[Fri Apr 19 04:26:12.493526 2019] [:error] [pid 2763] /opt/python/run/venv/local/lib64/python3.6/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+[Fri Apr 19 04:26:12.493575 2019] [:error] [pid 2763]   from numpy.core.umath_tests import inner1d
+
+
+
+-------------------------------------
+/var/log/httpd/access_log
+-------------------------------------
+127.0.0.1 (-) - - [19/Apr/2019:04:23:16 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+
+
+
+-------------------------------------
+/var/log/eb-activity.log
+-------------------------------------
+    Downloading https://files.pythonhosted.org/packages/fa/37/45185cb5abbc30d7257104c434fe0b07e5a195a6847506c074527aa599ec/Click-7.0-py2.py3-none-any.whl (81kB)
+  Collecting dill==0.2.9 (from -r /opt/python/ondeck/app/requirements.txt (line 2))
+    Downloading https://files.pythonhosted.org/packages/fe/42/bfe2e0857bc284cbe6a011d93f2a9ad58a22cb894461b199ae72cfef0f29/dill-0.2.9.tar.gz (150kB)
+  Collecting Flask==1.0.2 (from -r /opt/python/ondeck/app/requirements.txt (line 3))
+    Downloading https://files.pythonhosted.org/packages/7f/e7/08578774ed4536d3242b14dacb4696386634607af824ea997202cd0edb4b/Flask-1.0.2-py2.py3-none-any.whl (91kB)
+  Collecting itsdangerous==1.1.0 (from -r /opt/python/ondeck/app/requirements.txt (line 4))
+    Downloading https://files.pythonhosted.org/packages/76/ae/44b03b253d6fade317f32c24d100b3b35c2239807046a4c953c7b89fa49e/itsdangerous-1.1.0-py2.py3-none-any.whl
+  Collecting Jinja2==2.10.1 (from -r /opt/python/ondeck/app/requirements.txt (line 5))
+    Downloading https://files.pythonhosted.org/packages/1d/e7/fd8b501e7a6dfe492a433deb7b9d833d39ca74916fa8bc63dd1a4947a671/Jinja2-2.10.1-py2.py3-none-any.whl (124kB)
+  Collecting MarkupSafe==1.1.1 (from -r /opt/python/ondeck/app/requirements.txt (line 6))
+    Downloading https://files.pythonhosted.org/packages/b2/5f/23e0023be6bb885d00ffbefad2942bc51a620328ee910f64abe5a8d18dd1/MarkupSafe-1.1.1-cp36-cp36m-manylinux1_x86_64.whl
+  Collecting numpy==1.16.2 (from -r /opt/python/ondeck/app/requirements.txt (line 7))
+    Downloading https://files.pythonhosted.org/packages/35/d5/4f8410ac303e690144f0a0603c4b8fd3b986feb2749c435f7cdbb288f17e/numpy-1.16.2-cp36-cp36m-manylinux1_x86_64.whl (17.3MB)
+  Collecting pandas==0.24.2 (from -r /opt/python/ondeck/app/requirements.txt (line 8))
+    Retrying (Retry(total=4, connect=None, read=None, redirect=None)) after connection broken by 'ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))': /simple/pandas/
+    Retrying (Retry(total=4, connect=None, read=None, redirect=None)) after connection broken by 'ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))': /packages/19/74/e50234bc82c553fecdbd566d8650801e3fe2d6d8c8d940638e3d8a7c5522/pandas-0.24.2-cp36-cp36m-manylinux1_x86_64.whl
+    Downloading https://files.pythonhosted.org/packages/19/74/e50234bc82c553fecdbd566d8650801e3fe2d6d8c8d940638e3d8a7c5522/pandas-0.24.2-cp36-cp36m-manylinux1_x86_64.whl (10.1MB)
+  Collecting python-dateutil==2.8.0 (from -r /opt/python/ondeck/app/requirements.txt (line 9))
+    Downloading https://files.pythonhosted.org/packages/41/17/c62faccbfbd163c7f57f3844689e3a78bae1f403648a6afb1d0866d87fbb/python_dateutil-2.8.0-py2.py3-none-any.whl (226kB)
+  Collecting pytz==2019.1 (from -r /opt/python/ondeck/app/requirements.txt (line 10))
+    Downloading https://files.pythonhosted.org/packages/3d/73/fe30c2daaaa0713420d0382b16fbb761409f532c56bdcc514bf7b6262bb6/pytz-2019.1-py2.py3-none-any.whl (510kB)
+  Collecting scikit-learn==0.19.1 (from -r /opt/python/ondeck/app/requirements.txt (line 11))
+    Downloading https://files.pythonhosted.org/packages/3d/2d/9fbc7baa5f44bc9e88ffb7ed32721b879bfa416573e85031e16f52569bc9/scikit_learn-0.19.1-cp36-cp36m-manylinux1_x86_64.whl (12.4MB)
+  Collecting scipy==1.2.1 (from -r /opt/python/ondeck/app/requirements.txt (line 12))
+    Downloading https://files.pythonhosted.org/packages/7f/5f/c48860704092933bf1c4c1574a8de1ffd16bf4fde8bab190d747598844b2/scipy-1.2.1-cp36-cp36m-manylinux1_x86_64.whl (24.8MB)
+  Collecting six==1.12.0 (from -r /opt/python/ondeck/app/requirements.txt (line 13))
+    Downloading https://files.pythonhosted.org/packages/73/fb/00a976f728d0d1fecfe898238ce23f502a721c0ac0ecfedb80e0d88c64e9/six-1.12.0-py2.py3-none-any.whl
+  Collecting Werkzeug==0.15.2 (from -r /opt/python/ondeck/app/requirements.txt (line 14))
+    Downloading https://files.pythonhosted.org/packages/18/79/84f02539cc181cdbf5ff5a41b9f52cae870b6f632767e43ba6ac70132e92/Werkzeug-0.15.2-py2.py3-none-any.whl (328kB)
+  Building wheels for collected packages: dill
+    Running setup.py bdist_wheel for dill: started
+    Running setup.py bdist_wheel for dill: finished with status 'done'
+    Stored in directory: /root/.cache/pip/wheels/5b/d7/0f/e58eae695403de585269f4e4a94e0cd6ca60ec0c202936fa4a
+  Successfully built dill
+  Installing collected packages: Click, dill, MarkupSafe, Jinja2, Werkzeug, itsdangerous, Flask, numpy, pytz, six, python-dateutil, pandas, scikit-learn, scipy
+  Successfully installed Click-7.0 Flask-1.0.2 Jinja2-2.10.1 MarkupSafe-1.1.1 Werkzeug-0.15.2 dill-0.2.9 itsdangerous-1.1.0 numpy-1.16.2 pandas-0.24.2 python-dateutil-2.8.0 pytz-2019.1 scikit-learn-0.19.1 scipy-1.2.1 six-1.12.0
+  You are using pip version 9.0.1, however version 19.0.3 is available.
+  You should consider upgrading via the 'pip install --upgrade pip' command.
+[2019-04-19T04:22:57.916Z] INFO  [2565]  - [Application deployment infere2@32/StartupStage0/AppDeployPreHook/04configen.py] : Starting activity...
+[2019-04-19T04:22:59.463Z] INFO  [2565]  - [Application deployment infere2@32/StartupStage0/AppDeployPreHook/04configen.py] : Completed activity.
+[2019-04-19T04:22:59.463Z] INFO  [2565]  - [Application deployment infere2@32/StartupStage0/AppDeployPreHook] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/hooks/appdeploy/pre.
+[2019-04-19T04:22:59.463Z] INFO  [2565]  - [Application deployment infere2@32/StartupStage0/EbExtensionPostBuild] : Starting activity...
+[2019-04-19T04:22:59.937Z] INFO  [2565]  - [Application deployment infere2@32/StartupStage0/EbExtensionPostBuild/Infra-EmbeddedPostBuild] : Starting activity...
+[2019-04-19T04:22:59.937Z] INFO  [2565]  - [Application deployment infere2@32/StartupStage0/EbExtensionPostBuild/Infra-EmbeddedPostBuild] : Completed activity.
+[2019-04-19T04:22:59.955Z] INFO  [2565]  - [Application deployment infere2@32/StartupStage0/EbExtensionPostBuild] : Completed activity.
+[2019-04-19T04:22:59.955Z] INFO  [2565]  - [Application deployment infere2@32/StartupStage0/InfraCleanEbextension] : Starting activity...
+[2019-04-19T04:22:59.956Z] INFO  [2565]  - [Application deployment infere2@32/StartupStage0/InfraCleanEbextension] : Completed activity. Result:
+  Cleaned ebextensions subdirectories from /opt/python/ondeck/app.
+[2019-04-19T04:22:59.956Z] INFO  [2565]  - [Application deployment infere2@32/StartupStage0] : Completed activity. Result:
+  Application deployment - Command CMD-SelfStartup stage 0 completed
+[2019-04-19T04:22:59.956Z] INFO  [2565]  - [Application deployment infere2@32/StartupStage1] : Starting activity...
+[2019-04-19T04:22:59.957Z] INFO  [2565]  - [Application deployment infere2@32/StartupStage1/AppDeployEnactHook] : Starting activity...
+[2019-04-19T04:22:59.957Z] INFO  [2565]  - [Application deployment infere2@32/StartupStage1/AppDeployEnactHook/01flip.py] : Starting activity...
+[2019-04-19T04:23:20.727Z] INFO  [2565]  - [Application deployment infere2@32/StartupStage1/AppDeployEnactHook/01flip.py] : Completed activity. Result:
+  httpd: stopped
+  httpd: started
+  httpd                            RUNNING   pid 2758, uptime 0:00:03
+  2019-04-19 04:23:20,720 INFO     Apache is running, but root page is not responding in 3 seconds.
+[2019-04-19T04:23:20.727Z] INFO  [2565]  - [Application deployment infere2@32/StartupStage1/AppDeployEnactHook/01stop_xray.sh] : Starting activity...
+[2019-04-19T04:23:22.853Z] INFO  [2565]  - [Application deployment infere2@32/StartupStage1/AppDeployEnactHook/01stop_xray.sh] : Completed activity. Result:
+  Executing: if ( initctl status xray | grep start ); then initctl stop xray; fi
+  xray start/running, process 1781
+  xray stop/waiting
+[2019-04-19T04:23:22.853Z] INFO  [2565]  - [Application deployment infere2@32/StartupStage1/AppDeployEnactHook/02create_pids_for_monitoring.sh] : Starting activity...
+[2019-04-19T04:23:22.972Z] INFO  [2565]  - [Application deployment infere2@32/StartupStage1/AppDeployEnactHook/02create_pids_for_monitoring.sh] : Completed activity. Result:
+  + chmod 0755 /var/run/httpd
+  + /opt/elasticbeanstalk/bin/healthd-track-pidfile --proxy httpd
+  + /opt/elasticbeanstalk/bin/healthd-track-pidfile --name application --location /opt/python/run/supervisord.pid
+[2019-04-19T04:23:22.973Z] INFO  [2565]  - [Application deployment infere2@32/StartupStage1/AppDeployEnactHook/02start_xray.sh] : Starting activity...
+[2019-04-19T04:23:23.102Z] INFO  [2565]  - [Application deployment infere2@32/StartupStage1/AppDeployEnactHook/02start_xray.sh] : Completed activity.
+[2019-04-19T04:23:23.103Z] INFO  [2565]  - [Application deployment infere2@32/StartupStage1/AppDeployEnactHook] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/hooks/appdeploy/enact.
+[2019-04-19T04:23:23.103Z] INFO  [2565]  - [Application deployment infere2@32/StartupStage1/AppDeployPostHook] : Starting activity...
+[2019-04-19T04:23:23.103Z] INFO  [2565]  - [Application deployment infere2@32/StartupStage1/AppDeployPostHook] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/hooks/appdeploy/post.
+[2019-04-19T04:23:23.103Z] INFO  [2565]  - [Application deployment infere2@32/StartupStage1/PostInitHook] : Starting activity...
+[2019-04-19T04:23:23.103Z] INFO  [2565]  - [Application deployment infere2@32/StartupStage1/PostInitHook/01processmgrstart.sh] : Starting activity...
+[2019-04-19T04:23:23.109Z] INFO  [2565]  - [Application deployment infere2@32/StartupStage1/PostInitHook/01processmgrstart.sh] : Completed activity. Result:
+  + pgrep supervisord
+  2544
+[2019-04-19T04:23:23.109Z] INFO  [2565]  - [Application deployment infere2@32/StartupStage1/PostInitHook] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/hooks/postinit.
+[2019-04-19T04:23:23.109Z] INFO  [2565]  - [Application deployment infere2@32/StartupStage1] : Completed activity. Result:
+  Application deployment - Command CMD-SelfStartup stage 1 completed
+[2019-04-19T04:23:23.109Z] INFO  [2565]  - [Application deployment infere2@32/AddonsAfter] : Starting activity...
+[2019-04-19T04:23:23.109Z] INFO  [2565]  - [Application deployment infere2@32/AddonsAfter/ConfigLogRotation] : Starting activity...
+[2019-04-19T04:23:23.110Z] INFO  [2565]  - [Application deployment infere2@32/AddonsAfter/ConfigLogRotation/10-config.sh] : Starting activity...
+[2019-04-19T04:23:23.200Z] INFO  [2565]  - [Application deployment infere2@32/AddonsAfter/ConfigLogRotation/10-config.sh] : Completed activity. Result:
+  Disabled forced hourly log rotation.
+[2019-04-19T04:23:23.201Z] INFO  [2565]  - [Application deployment infere2@32/AddonsAfter/ConfigLogRotation] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/addons/logpublish/hooks/config.
+[2019-04-19T04:23:23.201Z] INFO  [2565]  - [Application deployment infere2@32/AddonsAfter] : Completed activity.
+[2019-04-19T04:23:23.201Z] INFO  [2565]  - [Application deployment infere2@32] : Completed activity. Result:
+  Application deployment - Command CMD-SelfStartup succeeded
+[2019-04-19T04:26:41.929Z] INFO  [3153]  - [CMD-TailLogs] : Starting activity...
+[2019-04-19T04:26:41.930Z] INFO  [3153]  - [CMD-TailLogs/AddonsBefore] : Starting activity...
+[2019-04-19T04:26:41.930Z] INFO  [3153]  - [CMD-TailLogs/AddonsBefore] : Completed activity.
+[2019-04-19T04:26:41.930Z] INFO  [3153]  - [CMD-TailLogs/TailLogs] : Starting activity...
+[2019-04-19T04:26:41.930Z] INFO  [3153]  - [CMD-TailLogs/TailLogs/TailLogs] : Starting activity...
+
+
+
+-------------------------------------
+/var/log/eb-commandprocessor.log
+-------------------------------------
+[2019-04-19T04:22:18.732Z] INFO  [2361]  : Updating Command definition of addon logpublish.
+[2019-04-19T04:22:18.732Z] DEBUG [2361]  : Retrieving metadata for key: AWS::CloudFormation::Init||Infra-WriteApplication2||files..
+[2019-04-19T04:22:18.733Z] DEBUG [2361]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||ManifestFileS3Key..
+[2019-04-19T04:22:18.922Z] INFO  [2361]  : Finding latest manifest from bucket 'elasticbeanstalk-us-east-1-969496461115' with prefix 'resources/environments/e-4rtsveypk9/_runtime/versions/manifest_'.
+[2019-04-19T04:22:19.072Z] INFO  [2361]  : Found manifest with key 'resources/environments/e-4rtsveypk9/_runtime/versions/manifest_1555647658691'.
+[2019-04-19T04:22:19.085Z] INFO  [2361]  : Updated manifest cache: deployment ID 32 and serial 32.
+[2019-04-19T04:22:19.085Z] DEBUG [2361]  : Loaded definition of Command CMD-PreInit.
+[2019-04-19T04:22:19.085Z] INFO  [2361]  : Executing Initialization
+[2019-04-19T04:22:19.085Z] INFO  [2361]  : Executing command: CMD-PreInit...
+[2019-04-19T04:22:19.085Z] INFO  [2361]  : Executing command CMD-PreInit activities...
+[2019-04-19T04:22:19.085Z] DEBUG [2361]  : Setting environment variables..
+[2019-04-19T04:22:19.085Z] INFO  [2361]  : Running AddonsBefore for command CMD-PreInit...
+[2019-04-19T04:22:23.156Z] DEBUG [2361]  : Running stages of Command CMD-PreInit from stage 0 to stage 0...
+[2019-04-19T04:22:23.156Z] INFO  [2361]  : Running stage 0 of command CMD-PreInit...
+[2019-04-19T04:22:23.156Z] DEBUG [2361]  : Loaded 2 actions for stage 0.
+[2019-04-19T04:22:23.157Z] INFO  [2361]  : Running 1 of 2 actions: DownloadSourceBundle...
+[2019-04-19T04:22:24.260Z] INFO  [2361]  : Running 2 of 2 actions: PreInitHook...
+[2019-04-19T04:22:32.911Z] INFO  [2361]  : Running AddonsAfter for command CMD-PreInit...
+[2019-04-19T04:22:32.911Z] INFO  [2361]  : Command CMD-PreInit succeeded!
+[2019-04-19T04:22:32.911Z] INFO  [2361]  : Command processor returning results: 
+{"status":"SUCCESS","api_version":"1.0","results":[{"status":"SUCCESS","msg":"","returncode":0,"events":[]}]}
+[2019-04-19T04:22:33.102Z] DEBUG [2565]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2019-04-19T04:22:33.102Z] DEBUG [2565]  : Checking if the command processor should execute...
+[2019-04-19T04:22:33.104Z] DEBUG [2565]  : Checking whether the command is applicable to instance (i-059586dbd05e6b876)..
+[2019-04-19T04:22:33.104Z] INFO  [2565]  : Command is applicable to this instance (i-059586dbd05e6b876)..
+[2019-04-19T04:22:33.104Z] DEBUG [2565]  : Checking if the received command stage is valid..
+[2019-04-19T04:22:33.104Z] INFO  [2565]  : No stage_num in command. Valid stage..
+[2019-04-19T04:22:33.104Z] INFO  [2565]  : Received command CMD-SelfStartup: {"api_version"=>"1.0", "request_id"=>"0", "command_name"=>"CMD-SelfStartup"}
+[2019-04-19T04:22:33.104Z] INFO  [2565]  : Command processor should execute command.
+[2019-04-19T04:22:33.104Z] DEBUG [2565]  : Storing current stage..
+[2019-04-19T04:22:33.104Z] DEBUG [2565]  : Stage_num does not exist. Not saving null stage. Returning..
+[2019-04-19T04:22:33.104Z] DEBUG [2565]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2019-04-19T04:22:33.105Z] DEBUG [2565]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
+[2019-04-19T04:22:33.106Z] DEBUG [2565]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
+[2019-04-19T04:22:33.107Z] INFO  [2565]  : Found enabled addons: ["logstreaming", "logpublish"].
+[2019-04-19T04:22:33.108Z] INFO  [2565]  : Updating Command definition of addon logstreaming.
+[2019-04-19T04:22:33.108Z] INFO  [2565]  : Updating Command definition of addon logpublish.
+[2019-04-19T04:22:33.108Z] DEBUG [2565]  : Refreshing metadata...
+[2019-04-19T04:22:33.108Z] DEBUG [2565]  : Using cached environment metadata.
+[2019-04-19T04:22:33.109Z] INFO  [2565]  : Recreated directory /opt/elasticbeanstalk/deploy/configuration/.
+[2019-04-19T04:22:33.109Z] DEBUG [2565]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_AppSourceUrlFileContent||url..
+[2019-04-19T04:22:33.109Z] INFO  [2565]  : Created appsource url file at /opt/elasticbeanstalk/deploy/configuration/appsourceurl.
+[2019-04-19T04:22:33.109Z] DEBUG [2565]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent..
+[2019-04-19T04:22:33.110Z] INFO  [2565]  : Created container config file at /opt/elasticbeanstalk/deploy/configuration/containerconfiguration.
+[2019-04-19T04:22:33.110Z] DEBUG [2565]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
+[2019-04-19T04:22:33.111Z] DEBUG [2565]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
+[2019-04-19T04:22:33.111Z] INFO  [2565]  : Found enabled addons: ["logstreaming", "logpublish"].
+[2019-04-19T04:22:33.112Z] INFO  [2565]  : Updating Command definition of addon logstreaming.
+[2019-04-19T04:22:33.112Z] INFO  [2565]  : Updating Command definition of addon logpublish.
+[2019-04-19T04:22:33.112Z] DEBUG [2565]  : Loaded definition of Command CMD-SelfStartup.
+[2019-04-19T04:22:33.113Z] INFO  [2565]  : Executing Application deployment
+[2019-04-19T04:22:33.113Z] INFO  [2565]  : Executing command: CMD-SelfStartup...
+[2019-04-19T04:22:33.113Z] INFO  [2565]  : Executing command CMD-SelfStartup activities...
+[2019-04-19T04:22:33.113Z] DEBUG [2565]  : Setting environment variables..
+[2019-04-19T04:22:33.113Z] INFO  [2565]  : Running AddonsBefore for command CMD-SelfStartup...
+[2019-04-19T04:22:33.274Z] DEBUG [2565]  : Running stages of Command CMD-SelfStartup from stage 0 to stage 1...
+[2019-04-19T04:22:33.274Z] INFO  [2565]  : Running stage 0 of command CMD-SelfStartup...
+[2019-04-19T04:22:33.274Z] DEBUG [2565]  : Loaded 7 actions for stage 0.
+[2019-04-19T04:22:33.274Z] INFO  [2565]  : Running 1 of 7 actions: HealthdLogRotation...
+[2019-04-19T04:22:33.279Z] INFO  [2565]  : Running 2 of 7 actions: HealthdHTTPDLogging...
+[2019-04-19T04:22:33.279Z] INFO  [2565]  : Running 3 of 7 actions: HealthdNginxLogging...
+[2019-04-19T04:22:33.279Z] INFO  [2565]  : Running 4 of 7 actions: EbExtensionPreBuild...
+[2019-04-19T04:22:33.722Z] INFO  [2565]  : Running 5 of 7 actions: AppDeployPreHook...
+[2019-04-19T04:22:59.463Z] INFO  [2565]  : Running 6 of 7 actions: EbExtensionPostBuild...
+[2019-04-19T04:22:59.955Z] INFO  [2565]  : Running 7 of 7 actions: InfraCleanEbextension...
+[2019-04-19T04:22:59.956Z] INFO  [2565]  : Running stage 1 of command CMD-SelfStartup...
+[2019-04-19T04:22:59.956Z] DEBUG [2565]  : Loaded 3 actions for stage 1.
+[2019-04-19T04:22:59.957Z] INFO  [2565]  : Running 1 of 3 actions: AppDeployEnactHook...
+[2019-04-19T04:23:23.103Z] INFO  [2565]  : Running 2 of 3 actions: AppDeployPostHook...
+[2019-04-19T04:23:23.103Z] INFO  [2565]  : Running 3 of 3 actions: PostInitHook...
+[2019-04-19T04:23:23.109Z] INFO  [2565]  : Running AddonsAfter for command CMD-SelfStartup...
+[2019-04-19T04:23:23.201Z] INFO  [2565]  : Command CMD-SelfStartup succeeded!
+[2019-04-19T04:23:23.201Z] INFO  [2565]  : Command processor returning results: 
+{"status":"SUCCESS","api_version":"1.0","results":[{"status":"SUCCESS","msg":"","returncode":0,"events":[]}]}
+[2019-04-19T04:26:41.923Z] DEBUG [3153]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2019-04-19T04:26:41.923Z] DEBUG [3153]  : Checking if the command processor should execute...
+[2019-04-19T04:26:41.926Z] DEBUG [3153]  : Checking whether the command is applicable to instance (i-059586dbd05e6b876)..
+[2019-04-19T04:26:41.926Z] INFO  [3153]  : Command is applicable to this instance (i-059586dbd05e6b876)..
+[2019-04-19T04:26:41.926Z] DEBUG [3153]  : Checking if the received command stage is valid..
+[2019-04-19T04:26:41.926Z] INFO  [3153]  : No stage_num in command. Valid stage..
+[2019-04-19T04:26:41.926Z] INFO  [3153]  : Received command CMD-TailLogs: {"execution_data"=>"*", "instance_ids"=>["i-059586dbd05e6b876"], "data"=>"53ccd70b-625b-11e9-8c29-0b27bc1df891", "command_name"=>"CMD-TailLogs", "api_version"=>"1.0", "resource_name"=>"AWSEBAutoScalingGroup", "request_id"=>"53ccd70b-625b-11e9-8c29-0b27bc1df891"}
+[2019-04-19T04:26:41.926Z] INFO  [3153]  : Command processor should execute command.
+[2019-04-19T04:26:41.926Z] DEBUG [3153]  : Storing current stage..
+[2019-04-19T04:26:41.926Z] DEBUG [3153]  : Stage_num does not exist. Not saving null stage. Returning..
+[2019-04-19T04:26:41.926Z] DEBUG [3153]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2019-04-19T04:26:41.926Z] DEBUG [3153]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
+[2019-04-19T04:26:41.927Z] DEBUG [3153]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
+[2019-04-19T04:26:41.927Z] INFO  [3153]  : Found enabled addons: ["logstreaming", "logpublish"].
+[2019-04-19T04:26:41.929Z] INFO  [3153]  : Updating Command definition of addon logstreaming.
+[2019-04-19T04:26:41.929Z] INFO  [3153]  : Updating Command definition of addon logpublish.
+[2019-04-19T04:26:41.929Z] DEBUG [3153]  : Loaded definition of Command CMD-TailLogs.
+[2019-04-19T04:26:41.929Z] INFO  [3153]  : Executing CMD-TailLogs
+[2019-04-19T04:26:41.929Z] INFO  [3153]  : Executing command: CMD-TailLogs...
+[2019-04-19T04:26:41.929Z] INFO  [3153]  : Executing command CMD-TailLogs activities...
+[2019-04-19T04:26:41.929Z] DEBUG [3153]  : Setting environment variables..
+[2019-04-19T04:26:41.930Z] INFO  [3153]  : Running AddonsBefore for command CMD-TailLogs...
+[2019-04-19T04:26:41.930Z] DEBUG [3153]  : Running stages of Command CMD-TailLogs from stage 0 to stage 0...
+[2019-04-19T04:26:41.930Z] INFO  [3153]  : Running stage 0 of command CMD-TailLogs...
+[2019-04-19T04:26:41.930Z] DEBUG [3153]  : Loaded 1 actions for stage 0.
+[2019-04-19T04:26:41.930Z] INFO  [3153]  : Running 1 of 1 actions: TailLogs...
+
+
+

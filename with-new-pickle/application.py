@@ -14,7 +14,9 @@ def get():
     lines = request.get_json(force=True)
     smile = lines['smile'] # keys in file test_json_get.py 
     sequ = lines['sequ']
-    '''
+
+    model.set_params(PUC__n_jobs=1)
+
     p = model.predict_proba(np.array([[smile, sequ]]))[0,1]
 
     print(f"the ligand {smile} and the protein {sequ} binds with probability {p}. ")
@@ -27,10 +29,10 @@ def get():
             mimetype='application/json', 
             #header
             )
-    '''
-    output = [('RESULT', smile),('report', sequ),('show_inp', 700)] 
-    return jsonify(output)
-    #return response
+    
+    #output = [('RESULT', smile),('report', sequ),('show_inp', 700)] 
+    #return jsonify(output)
+    return response
 
 if __name__=='__main__': 
     app.run(debug=True)
