@@ -3,3 +3,4 @@
 deploy-virt/
 *.zip
 __pycache__/
+*.pk
