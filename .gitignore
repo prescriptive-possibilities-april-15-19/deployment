@@ -1,0 +1,6 @@
+.mypy_cache/
+*.pickle
+deploy-virt/
+*.zip
+scratchy/
+__pycache__/

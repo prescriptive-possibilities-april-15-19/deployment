@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[requires]
+python_version = "3.6"
+
+[packages]
+Flask = "*"
+Flask-RESTful = "*"
+numpy = "*"
+pandas = "*"
+sklearn = "0.20.2"
+
