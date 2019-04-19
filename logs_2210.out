@@ -1,0 +1,509 @@
+-------------------------------------
+/opt/python/log/supervisord.log
+-------------------------------------
+2019-04-18 21:44:37,578 CRIT Supervisor running as root (no user in config file)
+2019-04-18 21:44:37,592 INFO RPC interface 'supervisor' initialized
+2019-04-18 21:44:37,592 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-04-18 21:44:37,592 INFO supervisord started with pid 3050
+2019-04-18 21:44:38,596 INFO spawned: 'httpd' with pid 3134
+2019-04-18 21:44:39,864 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-04-18 21:45:10,706 INFO stopped: httpd (exit status 0)
+2019-04-18 21:45:11,711 INFO spawned: 'httpd' with pid 3349
+2019-04-18 21:45:12,763 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-04-18 22:10:14,601 INFO stopped: httpd (exit status 0)
+2019-04-18 22:10:15,606 INFO spawned: 'httpd' with pid 4405
+2019-04-18 22:10:16,718 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-04-18 22:22:31,682 INFO stopped: httpd (exit status 0)
+2019-04-18 22:22:32,687 INFO spawned: 'httpd' with pid 5061
+2019-04-18 22:22:33,740 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-04-18 22:27:05,743 INFO stopped: httpd (exit status 0)
+2019-04-18 22:27:06,748 INFO spawned: 'httpd' with pid 5471
+2019-04-18 22:27:07,817 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-04-18 22:29:22,362 INFO stopped: httpd (exit status 0)
+2019-04-18 22:29:23,367 INFO spawned: 'httpd' with pid 5802
+2019-04-18 22:29:24,442 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-04-18 22:34:06,318 INFO stopped: httpd (exit status 0)
+2019-04-18 22:34:07,323 INFO spawned: 'httpd' with pid 6212
+2019-04-18 22:34:08,383 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-04-18 22:36:02,345 INFO stopped: httpd (exit status 0)
+2019-04-18 22:36:03,350 INFO spawned: 'httpd' with pid 6541
+2019-04-18 22:36:04,416 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-04-18 22:37:54,958 INFO stopped: httpd (exit status 0)
+2019-04-18 22:37:55,963 INFO spawned: 'httpd' with pid 6886
+2019-04-18 22:37:57,013 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-04-18 22:43:50,531 INFO stopped: httpd (exit status 0)
+2019-04-18 22:43:51,535 INFO spawned: 'httpd' with pid 7325
+2019-04-18 22:43:52,612 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-04-18 23:10:58,511 INFO stopped: httpd (exit status 0)
+2019-04-18 23:10:59,516 INFO spawned: 'httpd' with pid 8557
+2019-04-18 23:11:00,577 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-04-18 23:49:58,876 INFO stopped: httpd (exit status 0)
+2019-04-18 23:49:59,881 INFO spawned: 'httpd' with pid 10094
+2019-04-18 23:50:00,933 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-04-18 23:59:23,778 INFO stopped: httpd (exit status 0)
+2019-04-18 23:59:24,783 INFO spawned: 'httpd' with pid 10683
+2019-04-18 23:59:25,833 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-04-19 00:02:23,698 INFO stopped: httpd (exit status 0)
+2019-04-19 00:02:24,703 INFO spawned: 'httpd' with pid 11115
+2019-04-19 00:02:25,751 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-04-19 00:34:52,034 INFO stopped: httpd (exit status 0)
+2019-04-19 00:34:53,039 INFO spawned: 'httpd' with pid 12488
+2019-04-19 00:34:54,089 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-04-19 00:58:56,453 INFO stopped: httpd (exit status 0)
+2019-04-19 00:58:57,458 INFO spawned: 'httpd' with pid 13541
+2019-04-19 00:58:58,516 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-04-19 01:10:03,375 INFO stopped: httpd (exit status 0)
+2019-04-19 01:10:04,380 INFO spawned: 'httpd' with pid 14255
+2019-04-19 01:10:05,415 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-04-19 01:21:33,380 INFO stopped: httpd (exit status 0)
+2019-04-19 01:21:34,385 INFO spawned: 'httpd' with pid 14845
+2019-04-19 01:21:35,450 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-04-19 01:26:10,844 INFO stopped: httpd (exit status 0)
+2019-04-19 01:26:11,849 INFO spawned: 'httpd' with pid 15289
+2019-04-19 01:26:12,901 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-04-19 01:30:00,664 INFO stopped: httpd (exit status 0)
+2019-04-19 01:30:01,669 INFO spawned: 'httpd' with pid 15655
+2019-04-19 01:30:02,701 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-04-19 01:34:25,066 INFO stopped: httpd (exit status 0)
+2019-04-19 01:34:26,071 INFO spawned: 'httpd' with pid 16066
+2019-04-19 01:34:27,132 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-04-19 01:46:46,095 INFO stopped: httpd (exit status 0)
+2019-04-19 01:46:47,100 INFO spawned: 'httpd' with pid 16730
+2019-04-19 01:46:48,146 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-04-19 01:53:06,102 INFO stopped: httpd (exit status 0)
+2019-04-19 01:53:07,107 INFO spawned: 'httpd' with pid 17277
+2019-04-19 01:53:08,156 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+
+
+
+-------------------------------------
+/var/log/httpd/error_log
+-------------------------------------
+[Fri Apr 19 01:26:11.920590 2019] [http2:warn] [pid 15289] AH02951: mod_ssl does not seem to be enabled
+[Fri Apr 19 01:26:11.921185 2019] [lbmethod_heartbeat:notice] [pid 15289] AH02282: No slotmem from mod_heartmonitor
+[Fri Apr 19 01:26:11.921268 2019] [:warn] [pid 15289] mod_wsgi: Compiled for Python/3.6.2.
+[Fri Apr 19 01:26:11.921272 2019] [:warn] [pid 15289] mod_wsgi: Runtime using Python/3.6.7.
+[Fri Apr 19 01:26:11.923808 2019] [mpm_prefork:notice] [pid 15289] AH00163: Apache/2.4.38 (Amazon) mod_wsgi/3.5 Python/3.6.7 configured -- resuming normal operations
+[Fri Apr 19 01:26:11.923830 2019] [core:notice] [pid 15289] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Fri Apr 19 01:26:21.099082 2019] [:error] [pid 15294] [remote 173.62.207.188:144] [2019-04-19 01:26:21,098] ERROR in app: Exception on / [POST]
+[Fri Apr 19 01:26:21.099110 2019] [:error] [pid 15294] [remote 173.62.207.188:144] Traceback (most recent call last):
+[Fri Apr 19 01:26:21.099122 2019] [:error] [pid 15294] [remote 173.62.207.188:144]   File "/opt/python/run/venv/local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+[Fri Apr 19 01:26:21.099125 2019] [:error] [pid 15294] [remote 173.62.207.188:144]     response = self.full_dispatch_request()
+[Fri Apr 19 01:26:21.099129 2019] [:error] [pid 15294] [remote 173.62.207.188:144]   File "/opt/python/run/venv/local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+[Fri Apr 19 01:26:21.099131 2019] [:error] [pid 15294] [remote 173.62.207.188:144]     rv = self.handle_user_exception(e)
+[Fri Apr 19 01:26:21.099134 2019] [:error] [pid 15294] [remote 173.62.207.188:144]   File "/opt/python/run/venv/local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+[Fri Apr 19 01:26:21.099136 2019] [:error] [pid 15294] [remote 173.62.207.188:144]     reraise(exc_type, exc_value, tb)
+[Fri Apr 19 01:26:21.099138 2019] [:error] [pid 15294] [remote 173.62.207.188:144]   File "/opt/python/run/venv/local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+[Fri Apr 19 01:26:21.099140 2019] [:error] [pid 15294] [remote 173.62.207.188:144]     raise value
+[Fri Apr 19 01:26:21.099142 2019] [:error] [pid 15294] [remote 173.62.207.188:144]   File "/opt/python/run/venv/local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+[Fri Apr 19 01:26:21.099144 2019] [:error] [pid 15294] [remote 173.62.207.188:144]     rv = self.dispatch_request()
+[Fri Apr 19 01:26:21.099146 2019] [:error] [pid 15294] [remote 173.62.207.188:144]   File "/opt/python/run/venv/local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+[Fri Apr 19 01:26:21.099162 2019] [:error] [pid 15294] [remote 173.62.207.188:144]     return self.view_functions[rule.endpoint](**req.view_args)
+[Fri Apr 19 01:26:21.099164 2019] [:error] [pid 15294] [remote 173.62.207.188:144]   File "/opt/python/current/app/application.py", line 13, in get
+[Fri Apr 19 01:26:21.099166 2019] [:error] [pid 15294] [remote 173.62.207.188:144]     s = f"prediction at ({ligid},{seqid}): {predict(ligid, seqid)}"
+[Fri Apr 19 01:26:21.099170 2019] [:error] [pid 15294] [remote 173.62.207.188:144] NameError: name 'predict' is not defined
+[Fri Apr 19 01:26:21.099199 2019] [:error] [pid 15294] [remote 173.62.207.188:144] 
+[Fri Apr 19 01:30:00.604455 2019] [mpm_prefork:notice] [pid 15289] AH00169: caught SIGTERM, shutting down
+[Fri Apr 19 01:30:03.306902 2019] [suexec:notice] [pid 15655] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Fri Apr 19 01:30:03.323888 2019] [so:warn] [pid 15655] AH01574: module wsgi_module is already loaded, skipping
+[Fri Apr 19 01:30:03.326437 2019] [http2:warn] [pid 15655] AH10034: The mpm module (prefork.c) is not supported by mod_http2. The mpm determines how things are processed in your server. HTTP/2 has more demands in this regard and the currently selected mpm will just not do. This is an advisory warning. Your server will continue to work, but the HTTP/2 protocol will be inactive.
+[Fri Apr 19 01:30:03.326450 2019] [http2:warn] [pid 15655] AH02951: mod_ssl does not seem to be enabled
+[Fri Apr 19 01:30:03.327015 2019] [lbmethod_heartbeat:notice] [pid 15655] AH02282: No slotmem from mod_heartmonitor
+[Fri Apr 19 01:30:03.327084 2019] [:warn] [pid 15655] mod_wsgi: Compiled for Python/3.6.2.
+[Fri Apr 19 01:30:03.327088 2019] [:warn] [pid 15655] mod_wsgi: Runtime using Python/3.6.7.
+[Fri Apr 19 01:30:03.329593 2019] [mpm_prefork:notice] [pid 15655] AH00163: Apache/2.4.38 (Amazon) mod_wsgi/3.5 Python/3.6.7 configured -- resuming normal operations
+[Fri Apr 19 01:30:03.329613 2019] [core:notice] [pid 15655] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Fri Apr 19 01:32:03.716637 2019] [:error] [pid 15682] [remote 173.62.207.188:8] [2019-04-19 01:32:03,715] ERROR in app: Exception on / [POST]
+[Fri Apr 19 01:32:03.716666 2019] [:error] [pid 15682] [remote 173.62.207.188:8] Traceback (most recent call last):
+[Fri Apr 19 01:32:03.716670 2019] [:error] [pid 15682] [remote 173.62.207.188:8]   File "/opt/python/run/venv/local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+[Fri Apr 19 01:32:03.716682 2019] [:error] [pid 15682] [remote 173.62.207.188:8]     response = self.full_dispatch_request()
+[Fri Apr 19 01:32:03.716686 2019] [:error] [pid 15682] [remote 173.62.207.188:8]   File "/opt/python/run/venv/local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+[Fri Apr 19 01:32:03.716688 2019] [:error] [pid 15682] [remote 173.62.207.188:8]     rv = self.handle_user_exception(e)
+[Fri Apr 19 01:32:03.716691 2019] [:error] [pid 15682] [remote 173.62.207.188:8]   File "/opt/python/run/venv/local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+[Fri Apr 19 01:32:03.716693 2019] [:error] [pid 15682] [remote 173.62.207.188:8]     reraise(exc_type, exc_value, tb)
+[Fri Apr 19 01:32:03.716695 2019] [:error] [pid 15682] [remote 173.62.207.188:8]   File "/opt/python/run/venv/local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+[Fri Apr 19 01:32:03.716698 2019] [:error] [pid 15682] [remote 173.62.207.188:8]     raise value
+[Fri Apr 19 01:32:03.716700 2019] [:error] [pid 15682] [remote 173.62.207.188:8]   File "/opt/python/run/venv/local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+[Fri Apr 19 01:32:03.716703 2019] [:error] [pid 15682] [remote 173.62.207.188:8]     rv = self.dispatch_request()
+[Fri Apr 19 01:32:03.716705 2019] [:error] [pid 15682] [remote 173.62.207.188:8]   File "/opt/python/run/venv/local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+[Fri Apr 19 01:32:03.716707 2019] [:error] [pid 15682] [remote 173.62.207.188:8]     return self.view_functions[rule.endpoint](**req.view_args)
+[Fri Apr 19 01:32:03.716710 2019] [:error] [pid 15682] [remote 173.62.207.188:8]   File "/opt/python/current/app/application.py", line 13, in get
+[Fri Apr 19 01:32:03.716712 2019] [:error] [pid 15682] [remote 173.62.207.188:8]     s = f"prediction at ({ligid},{seqid}): {predict(ligid, seqid)}"
+[Fri Apr 19 01:32:03.716716 2019] [:error] [pid 15682] [remote 173.62.207.188:8] NameError: name 'predict' is not defined
+[Fri Apr 19 01:32:03.716737 2019] [:error] [pid 15682] [remote 173.62.207.188:8] 
+[Fri Apr 19 01:34:25.006121 2019] [mpm_prefork:notice] [pid 15655] AH00169: caught SIGTERM, shutting down
+[Fri Apr 19 01:34:26.132177 2019] [suexec:notice] [pid 16066] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Fri Apr 19 01:34:26.149307 2019] [so:warn] [pid 16066] AH01574: module wsgi_module is already loaded, skipping
+[Fri Apr 19 01:34:26.152395 2019] [http2:warn] [pid 16066] AH10034: The mpm module (prefork.c) is not supported by mod_http2. The mpm determines how things are processed in your server. HTTP/2 has more demands in this regard and the currently selected mpm will just not do. This is an advisory warning. Your server will continue to work, but the HTTP/2 protocol will be inactive.
+[Fri Apr 19 01:34:26.152406 2019] [http2:warn] [pid 16066] AH02951: mod_ssl does not seem to be enabled
+[Fri Apr 19 01:34:26.152980 2019] [lbmethod_heartbeat:notice] [pid 16066] AH02282: No slotmem from mod_heartmonitor
+[Fri Apr 19 01:34:26.153049 2019] [:warn] [pid 16066] mod_wsgi: Compiled for Python/3.6.2.
+[Fri Apr 19 01:34:26.153054 2019] [:warn] [pid 16066] mod_wsgi: Runtime using Python/3.6.7.
+[Fri Apr 19 01:34:26.155616 2019] [mpm_prefork:notice] [pid 16066] AH00163: Apache/2.4.38 (Amazon) mod_wsgi/3.5 Python/3.6.7 configured -- resuming normal operations
+[Fri Apr 19 01:34:26.155640 2019] [core:notice] [pid 16066] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Fri Apr 19 01:35:32.950333 2019] [core:error] [pid 16073] [client 127.0.0.1:49246] Script timed out before returning headers: application.py
+[Fri Apr 19 01:35:36.946328 2019] [core:error] [pid 16076] [client 127.0.0.1:49248] Script timed out before returning headers: application.py
+[Fri Apr 19 01:35:40.951178 2019] [core:error] [pid 16074] [client 127.0.0.1:49250] Script timed out before returning headers: application.py
+[Fri Apr 19 01:36:06.317552 2019] [core:error] [pid 16075] [client 173.62.207.188:35346] Script timed out before returning headers: application.py
+[Fri Apr 19 01:39:34.205422 2019] [core:error] [pid 16072] [client 127.0.0.1:49244] End of script output before headers: application.py
+[Fri Apr 19 01:46:46.083428 2019] [mpm_prefork:notice] [pid 16066] AH00169: caught SIGTERM, shutting down
+[Fri Apr 19 01:46:47.146854 2019] [suexec:notice] [pid 16730] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Fri Apr 19 01:46:47.163357 2019] [so:warn] [pid 16730] AH01574: module wsgi_module is already loaded, skipping
+[Fri Apr 19 01:46:47.165775 2019] [http2:warn] [pid 16730] AH10034: The mpm module (prefork.c) is not supported by mod_http2. The mpm determines how things are processed in your server. HTTP/2 has more demands in this regard and the currently selected mpm will just not do. This is an advisory warning. Your server will continue to work, but the HTTP/2 protocol will be inactive.
+[Fri Apr 19 01:46:47.165789 2019] [http2:warn] [pid 16730] AH02951: mod_ssl does not seem to be enabled
+[Fri Apr 19 01:46:47.166372 2019] [lbmethod_heartbeat:notice] [pid 16730] AH02282: No slotmem from mod_heartmonitor
+[Fri Apr 19 01:46:47.166441 2019] [:warn] [pid 16730] mod_wsgi: Compiled for Python/3.6.2.
+[Fri Apr 19 01:46:47.166449 2019] [:warn] [pid 16730] mod_wsgi: Runtime using Python/3.6.7.
+[Fri Apr 19 01:46:47.168975 2019] [mpm_prefork:notice] [pid 16730] AH00163: Apache/2.4.38 (Amazon) mod_wsgi/3.5 Python/3.6.7 configured -- resuming normal operations
+[Fri Apr 19 01:46:47.168998 2019] [core:notice] [pid 16730] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Fri Apr 19 01:47:53.970917 2019] [core:error] [pid 16737] [client 127.0.0.1:49386] Script timed out before returning headers: application.py
+[Fri Apr 19 01:47:57.969729 2019] [core:error] [pid 16740] [client 127.0.0.1:49388] Script timed out before returning headers: application.py
+[Fri Apr 19 01:48:01.966815 2019] [core:error] [pid 16738] [client 127.0.0.1:49390] Script timed out before returning headers: application.py
+[Fri Apr 19 01:48:17.476064 2019] [core:error] [pid 16739] [client 173.62.207.188:35426] Script timed out before returning headers: application.py
+[Fri Apr 19 01:51:55.221453 2019] [core:error] [pid 16736] [client 127.0.0.1:49384] End of script output before headers: application.py
+[Fri Apr 19 01:53:03.077121 2019] [mpm_prefork:notice] [pid 16730] AH00169: caught SIGTERM, shutting down
+[Fri Apr 19 01:53:07.156667 2019] [suexec:notice] [pid 17277] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Fri Apr 19 01:53:07.173537 2019] [so:warn] [pid 17277] AH01574: module wsgi_module is already loaded, skipping
+[Fri Apr 19 01:53:07.175816 2019] [http2:warn] [pid 17277] AH10034: The mpm module (prefork.c) is not supported by mod_http2. The mpm determines how things are processed in your server. HTTP/2 has more demands in this regard and the currently selected mpm will just not do. This is an advisory warning. Your server will continue to work, but the HTTP/2 protocol will be inactive.
+[Fri Apr 19 01:53:07.175827 2019] [http2:warn] [pid 17277] AH02951: mod_ssl does not seem to be enabled
+[Fri Apr 19 01:53:07.176400 2019] [lbmethod_heartbeat:notice] [pid 17277] AH02282: No slotmem from mod_heartmonitor
+[Fri Apr 19 01:53:07.176463 2019] [:warn] [pid 17277] mod_wsgi: Compiled for Python/3.6.2.
+[Fri Apr 19 01:53:07.176468 2019] [:warn] [pid 17277] mod_wsgi: Runtime using Python/3.6.7.
+[Fri Apr 19 01:53:07.179001 2019] [mpm_prefork:notice] [pid 17277] AH00163: Apache/2.4.38 (Amazon) mod_wsgi/3.5 Python/3.6.7 configured -- resuming normal operations
+[Fri Apr 19 01:53:07.179021 2019] [core:notice] [pid 17277] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Fri Apr 19 01:54:13.966376 2019] [core:error] [pid 17284] [client 127.0.0.1:49490] Script timed out before returning headers: application.py
+[Fri Apr 19 01:54:17.978713 2019] [core:error] [pid 17287] [client 127.0.0.1:49492] Script timed out before returning headers: application.py
+[Fri Apr 19 01:54:21.979420 2019] [core:error] [pid 17285] [client 127.0.0.1:49494] Script timed out before returning headers: application.py
+[Fri Apr 19 01:57:13.378073 2019] [core:error] [pid 17286] [client 173.62.207.188:35678] Script timed out before returning headers: application.py
+[Fri Apr 19 01:58:15.224079 2019] [core:error] [pid 17283] [client 127.0.0.1:49486] End of script output before headers: application.py
+[Fri Apr 19 02:01:28.988381 2019] [core:error] [pid 17360] [client 173.62.207.188:35792] Script timed out before returning headers: application.py
+[Fri Apr 19 02:01:54.247143 2019] [core:error] [pid 17366] [client 104.183.145.31:54985] Script timed out before returning headers: application.py
+[Fri Apr 19 02:04:35.616530 2019] [core:error] [pid 17350] [client 173.62.207.188:35692] End of script output before headers: application.py
+
+
+
+-------------------------------------
+/var/log/httpd/access_log
+-------------------------------------
+173.62.207.188 (-) - - [18/Apr/2019:22:46:01 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0"
+::1 (-) - - [18/Apr/2019:22:47:01 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.38 (Amazon) mod_wsgi/3.5 Python/3.6.7 (internal dummy connection)"
+173.62.207.188 (-) - - [18/Apr/2019:22:47:16 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0"
+173.62.207.188 (-) - - [18/Apr/2019:22:47:31 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0"
+173.62.207.188 (-) - - [18/Apr/2019:22:43:53 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0"
+::1 (-) - - [18/Apr/2019:22:48:59 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.38 (Amazon) mod_wsgi/3.5 Python/3.6.7 (internal dummy connection)"
+173.62.207.188 (-) - - [18/Apr/2019:22:59:57 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0"
+127.0.0.1 (-) - - [18/Apr/2019:23:11:02 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Apr/2019:23:11:06 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Apr/2019:23:11:10 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+::1 (-) - - [18/Apr/2019:23:12:10 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.38 (Amazon) mod_wsgi/3.5 Python/3.6.7 (internal dummy connection)"
+127.0.0.1 (-) - - [18/Apr/2019:23:11:14 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+173.62.207.188 (-) - - [18/Apr/2019:23:11:30 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0"
+::1 (-) - - [18/Apr/2019:23:12:31 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.38 (Amazon) mod_wsgi/3.5 Python/3.6.7 (internal dummy connection)"
+173.62.207.188 (-) - - [18/Apr/2019:23:11:31 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0"
+173.62.207.188 (-) - - [18/Apr/2019:23:11:31 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0"
+173.62.207.188 (-) - - [18/Apr/2019:23:11:32 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0"
+::1 (-) - - [18/Apr/2019:23:12:32 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.38 (Amazon) mod_wsgi/3.5 Python/3.6.7 (internal dummy connection)"
+::1 (-) - - [18/Apr/2019:23:12:33 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.38 (Amazon) mod_wsgi/3.5 Python/3.6.7 (internal dummy connection)"
+::1 (-) - - [18/Apr/2019:23:12:34 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.38 (Amazon) mod_wsgi/3.5 Python/3.6.7 (internal dummy connection)"
+173.62.207.188 (-) - - [18/Apr/2019:23:12:11 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0"
+::1 (-) - - [18/Apr/2019:23:13:12 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.38 (Amazon) mod_wsgi/3.5 Python/3.6.7 (internal dummy connection)"
+173.62.207.188 (-) - - [18/Apr/2019:23:14:17 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0"
+173.62.207.188 (-) - - [18/Apr/2019:23:11:00 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0"
+::1 (-) - - [18/Apr/2019:23:16:05 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.38 (Amazon) mod_wsgi/3.5 Python/3.6.7 (internal dummy connection)"
+173.62.207.188 (-) - - [18/Apr/2019:23:19:42 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0"
+139.162.106.181 (-) - - [18/Apr/2019:23:17:18 +0000] "GET / HTTP/1.1" 500 527 "-" "HTTP Banner Detection (https://security.ipip.net)"
+127.0.0.1 (-) - - [18/Apr/2019:23:50:06 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Apr/2019:23:50:10 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Apr/2019:23:50:14 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+173.62.207.188 (-) - - [18/Apr/2019:23:52:48 +0000] "POST / HTTP/1.1" 500 527 "-" "python-requests/2.20.1"
+127.0.0.1 (-) - - [18/Apr/2019:23:50:02 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Apr/2019:23:59:31 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Apr/2019:23:59:35 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [18/Apr/2019:23:59:39 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+173.62.207.188 (-) - - [19/Apr/2019:00:00:34 +0000] "POST / HTTP/1.1" 500 527 "-" "python-requests/2.20.1"
+127.0.0.1 (-) - - [19/Apr/2019:00:02:31 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:00:02:35 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:00:02:39 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+173.62.207.188 (-) - - [19/Apr/2019:00:03:01 +0000] "POST / HTTP/1.1" 500 527 "-" "python-requests/2.20.1"
+173.62.207.188 (-) - - [19/Apr/2019:00:04:43 +0000] "POST / HTTP/1.1" 500 527 "-" "python-requests/2.20.1"
+127.0.0.1 (-) - - [19/Apr/2019:00:02:27 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+173.62.207.188 (-) - - [19/Apr/2019:00:08:11 +0000] "POST / HTTP/1.1" 500 527 "-" "python-requests/2.20.1"
+3.85.16.180 (-) - - [19/Apr/2019:00:17:30 +0000] "GET / HTTP/1.1" 500 527 "-" "Slackbot-LinkExpanding 1.0 (+https://api.slack.com/robots)"
+173.62.207.188 (-) - - [19/Apr/2019:00:17:55 +0000] "POST / HTTP/1.1" 500 527 "-" "python-requests/2.20.1"
+104.183.145.31 (-) - - [19/Apr/2019:00:18:44 +0000] "POST / HTTP/1.1" 500 527 "-" "python-requests/2.21.0"
+100.26.240.212 (-) - - [19/Apr/2019:00:17:20 +0000] "GET / HTTP/1.1" 500 527 "-" "Slackbot-LinkExpanding 1.0 (+https://api.slack.com/robots)"
+127.0.0.1 (-) - - [19/Apr/2019:00:34:59 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:00:35:03 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:00:35:07 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+173.62.207.188 (-) - - [19/Apr/2019:00:36:14 +0000] "POST / HTTP/1.1" 500 527 "-" "python-requests/2.20.1"
+127.0.0.1 (-) - - [19/Apr/2019:00:34:55 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+104.183.145.31 (-) - - [19/Apr/2019:00:44:23 +0000] "POST / HTTP/1.1" 500 527 "-" "python-requests/2.21.0"
+173.62.207.188 (-) - - [19/Apr/2019:00:41:34 +0000] "POST / HTTP/1.1" 500 527 "-" "python-requests/2.20.1"
+127.0.0.1 (-) - - [19/Apr/2019:00:59:04 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+173.62.207.188 (-) - - [19/Apr/2019:00:59:07 +0000] "POST / HTTP/1.1" 500 527 "-" "python-requests/2.20.1"
+127.0.0.1 (-) - - [19/Apr/2019:00:59:08 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:00:59:12 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:00:59:00 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+173.62.207.188 (-) - - [19/Apr/2019:01:05:29 +0000] "POST / HTTP/1.1" 500 527 "-" "python-requests/2.20.1"
+104.183.145.31 (-) - - [19/Apr/2019:01:06:47 +0000] "POST / HTTP/1.1" 500 527 "-" "python-requests/2.21.0"
+127.0.0.1 (-) - - [19/Apr/2019:01:10:07 +0000] "GET / HTTP/1.1" 405 178 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:01:10:08 +0000] "GET / HTTP/1.1" 405 178 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:01:10:09 +0000] "GET / HTTP/1.1" 405 178 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:01:10:10 +0000] "GET / HTTP/1.1" 405 178 "-" "Python-urllib/2.7"
+173.62.207.188 (-) - - [19/Apr/2019:01:10:22 +0000] "POST / HTTP/1.1" 500 290 "-" "python-requests/2.20.1"
+127.0.0.1 (-) - - [19/Apr/2019:01:21:37 +0000] "GET / HTTP/1.1" 405 178 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:01:21:38 +0000] "GET / HTTP/1.1" 405 178 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:01:21:39 +0000] "GET / HTTP/1.1" 405 178 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:01:21:40 +0000] "GET / HTTP/1.1" 405 178 "-" "Python-urllib/2.7"
+173.62.207.188 (-) - - [19/Apr/2019:01:22:35 +0000] "POST / HTTP/1.1" 200 27 "-" "python-requests/2.20.1"
+104.183.145.31 (-) - - [19/Apr/2019:01:22:56 +0000] "POST / HTTP/1.1" 200 28 "-" "python-requests/2.21.0"
+127.0.0.1 (-) - - [19/Apr/2019:01:26:14 +0000] "GET / HTTP/1.1" 405 178 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:01:26:15 +0000] "GET / HTTP/1.1" 405 178 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:01:26:16 +0000] "GET / HTTP/1.1" 405 178 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:01:26:17 +0000] "GET / HTTP/1.1" 405 178 "-" "Python-urllib/2.7"
+173.62.207.188 (-) - - [19/Apr/2019:01:26:21 +0000] "POST / HTTP/1.1" 500 290 "-" "python-requests/2.20.1"
+127.0.0.1 (-) - - [19/Apr/2019:01:30:04 +0000] "GET / HTTP/1.1" 405 178 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:01:30:05 +0000] "GET / HTTP/1.1" 405 178 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:01:30:06 +0000] "GET / HTTP/1.1" 405 178 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:01:30:07 +0000] "GET / HTTP/1.1" 405 178 "-" "Python-urllib/2.7"
+173.62.207.188 (-) - - [19/Apr/2019:01:32:03 +0000] "POST / HTTP/1.1" 500 290 "-" "python-requests/2.20.1"
+127.0.0.1 (-) - - [19/Apr/2019:01:34:32 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:01:34:36 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:01:34:40 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+173.62.207.188 (-) - - [19/Apr/2019:01:35:06 +0000] "POST / HTTP/1.1" 500 527 "-" "python-requests/2.20.1"
+127.0.0.1 (-) - - [19/Apr/2019:01:34:28 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:01:46:53 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:01:46:57 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:01:47:01 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+173.62.207.188 (-) - - [19/Apr/2019:01:47:17 +0000] "POST / HTTP/1.1" 500 527 "-" "python-requests/2.20.1"
+127.0.0.1 (-) - - [19/Apr/2019:01:46:49 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:01:53:13 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:01:53:17 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [19/Apr/2019:01:53:21 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+173.62.207.188 (-) - - [19/Apr/2019:01:56:13 +0000] "POST / HTTP/1.1" 500 527 "-" "python-requests/2.20.1"
+127.0.0.1 (-) - - [19/Apr/2019:01:53:09 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+173.62.207.188 (-) - - [19/Apr/2019:02:00:28 +0000] "POST / HTTP/1.1" 500 527 "-" "python-requests/2.20.1"
+104.183.145.31 (-) - - [19/Apr/2019:02:00:54 +0000] "POST / HTTP/1.1" 500 527 "-" "python-requests/2.21.0"
+173.62.207.188 (-) - - [19/Apr/2019:01:59:30 +0000] "POST / HTTP/1.1" 500 527 "-" "python-requests/2.20.1"
+
+
+
+-------------------------------------
+/var/log/eb-activity.log
+-------------------------------------
+[2019-04-19T01:52:56.159Z] INFO  [17099] - [Application update demo20@22/AddonsBefore/ConfigCWLAgent] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/addons/logstreaming/hooks/config.
+[2019-04-19T01:52:56.159Z] INFO  [17099] - [Application update demo20@22/AddonsBefore] : Completed activity.
+[2019-04-19T01:52:56.561Z] INFO  [17099] - [Application update demo20@22/AppDeployStage0] : Starting activity...
+[2019-04-19T01:52:56.561Z] INFO  [17099] - [Application update demo20@22/AppDeployStage0/DownloadSourceBundle] : Starting activity...
+[2019-04-19T01:52:57.227Z] INFO  [17099] - [Application update demo20@22/AppDeployStage0/DownloadSourceBundle] : Completed activity. Result:
+  [2019-04-19T01:52:56.670Z] INFO  [17142] : Application version will be saved to /opt/elasticbeanstalk/deploy/appsource.
+  [2019-04-19T01:52:56.670Z] INFO  [17142] : Using manifest cache with deployment ID 22 and serial 22.
+  [2019-04-19T01:52:56.670Z] INFO  [17142] : Attempting to download application source bundle to: '/opt/elasticbeanstalk/deploy/appsource/source_bundle'.
+  [2019-04-19T01:52:56.670Z] INFO  [17142] : Using computed s3 key.
+  [2019-04-19T01:52:56.792Z] INFO  [17142] : Downloading from bucket 'elasticbeanstalk-us-east-1-969496461115' with key 'resources/environments/e-4rtsveypk9/_runtime/_versions/deploy/demo20' and version '' to '/opt/elasticbeanstalk/deploy/appsource/source_bundle'.
+  [2019-04-19T01:52:56.853Z] INFO  [17142] : Size: 22966201, ETag: "3f2bf4ef7b7ac470b0027e4d08b40fe7", Metadata: {"environmentid"=>"e-4rtsveypk9", "requestid"=>"d4a158ec-6245-11e9-a49e-b52473367856"}.
+  [2019-04-19T01:52:57.208Z] INFO  [17142] : Downloaded size: 22966201.
+  [2019-04-19T01:52:57.208Z] INFO  [17142] : Successfully downloaded to '/opt/elasticbeanstalk/deploy/appsource/source_bundle'.
+[2019-04-19T01:52:57.227Z] INFO  [17099] - [Application update demo20@22/AppDeployStage0/EbExtensionPreBuild] : Starting activity...
+[2019-04-19T01:52:57.577Z] INFO  [17099] - [Application update demo20@22/AppDeployStage0/EbExtensionPreBuild/Infra-EmbeddedPreBuild] : Starting activity...
+[2019-04-19T01:52:57.577Z] INFO  [17099] - [Application update demo20@22/AppDeployStage0/EbExtensionPreBuild/Infra-EmbeddedPreBuild] : Completed activity.
+[2019-04-19T01:52:57.593Z] INFO  [17099] - [Application update demo20@22/AppDeployStage0/EbExtensionPreBuild] : Completed activity.
+[2019-04-19T01:52:57.593Z] INFO  [17099] - [Application update demo20@22/AppDeployStage0/AppDeployPreHook] : Starting activity...
+[2019-04-19T01:52:57.593Z] INFO  [17099] - [Application update demo20@22/AppDeployStage0/AppDeployPreHook/01_configure_xray.sh] : Starting activity...
+[2019-04-19T01:52:57.701Z] INFO  [17099] - [Application update demo20@22/AppDeployStage0/AppDeployPreHook/01_configure_xray.sh] : Completed activity.
+[2019-04-19T01:52:57.701Z] INFO  [17099] - [Application update demo20@22/AppDeployStage0/AppDeployPreHook/01new.py] : Starting activity...
+[2019-04-19T01:52:58.012Z] INFO  [17099] - [Application update demo20@22/AppDeployStage0/AppDeployPreHook/01new.py] : Completed activity.
+[2019-04-19T01:52:58.012Z] INFO  [17099] - [Application update demo20@22/AppDeployStage0/AppDeployPreHook/02unzip.py] : Starting activity...
+[2019-04-19T01:52:59.923Z] INFO  [17099] - [Application update demo20@22/AppDeployStage0/AppDeployPreHook/02unzip.py] : Completed activity. Result:
+  Archive:  /opt/elasticbeanstalk/deploy/appsource/source_bundle
+    inflating: /opt/python/ondeck/app/application.py  
+    inflating: /opt/python/ondeck/app/baggingPU.py  
+    inflating: /opt/python/ondeck/app/script.py  
+    inflating: /opt/python/ondeck/app/dfs_PROTOTYPE.pickle  
+    inflating: /opt/python/ondeck/app/estimators_tup_PROTOTYPE.pickle  
+    inflating: /opt/python/ondeck/app/requirements.txt  
+[2019-04-19T01:52:59.923Z] INFO  [17099] - [Application update demo20@22/AppDeployStage0/AppDeployPreHook/03deploy.py] : Starting activity...
+[2019-04-19T01:53:00.649Z] INFO  [17099] - [Application update demo20@22/AppDeployStage0/AppDeployPreHook/03deploy.py] : Completed activity. Result:
+  Requirement already satisfied: Click==7.0 in /opt/python/run/venv/lib/python3.6/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 1))
+  Requirement already satisfied: Flask==1.0.2 in /opt/python/run/venv/lib/python3.6/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 2))
+  Requirement already satisfied: itsdangerous==1.1.0 in /opt/python/run/venv/lib/python3.6/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 3))
+  Requirement already satisfied: Jinja2==2.10.1 in /opt/python/run/venv/lib/python3.6/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 4))
+  Requirement already satisfied: MarkupSafe==1.1.1 in /opt/python/run/venv/lib64/python3.6/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 5))
+  Requirement already satisfied: numpy==1.16.2 in /opt/python/run/venv/lib64/python3.6/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 6))
+  Requirement already satisfied: scikit-learn==0.20.2 in /opt/python/run/venv/lib64/python3.6/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 7))
+  Requirement already satisfied: scipy==1.2.1 in /opt/python/run/venv/lib64/python3.6/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 8))
+  Requirement already satisfied: sklearn==0.0 in /opt/python/run/venv/lib/python3.6/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 9))
+  Requirement already satisfied: Werkzeug==0.15.2 in /opt/python/run/venv/lib/python3.6/site-packages (from -r /opt/python/ondeck/app/requirements.txt (line 10))
+  You are using pip version 9.0.1, however version 19.0.3 is available.
+  You should consider upgrading via the 'pip install --upgrade pip' command.
+[2019-04-19T01:53:00.649Z] INFO  [17099] - [Application update demo20@22/AppDeployStage0/AppDeployPreHook/04configen.py] : Starting activity...
+[2019-04-19T01:53:01.971Z] INFO  [17099] - [Application update demo20@22/AppDeployStage0/AppDeployPreHook/04configen.py] : Completed activity.
+[2019-04-19T01:53:01.971Z] INFO  [17099] - [Application update demo20@22/AppDeployStage0/AppDeployPreHook] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/hooks/appdeploy/pre.
+[2019-04-19T01:53:01.972Z] INFO  [17099] - [Application update demo20@22/AppDeployStage0/EbExtensionPostBuild] : Starting activity...
+[2019-04-19T01:53:02.380Z] INFO  [17099] - [Application update demo20@22/AppDeployStage0/EbExtensionPostBuild/Infra-EmbeddedPostBuild] : Starting activity...
+[2019-04-19T01:53:02.380Z] INFO  [17099] - [Application update demo20@22/AppDeployStage0/EbExtensionPostBuild/Infra-EmbeddedPostBuild] : Completed activity.
+[2019-04-19T01:53:02.396Z] INFO  [17099] - [Application update demo20@22/AppDeployStage0/EbExtensionPostBuild] : Completed activity.
+[2019-04-19T01:53:02.396Z] INFO  [17099] - [Application update demo20@22/AppDeployStage0/InfraCleanEbextension] : Starting activity...
+[2019-04-19T01:53:02.396Z] INFO  [17099] - [Application update demo20@22/AppDeployStage0/InfraCleanEbextension] : Completed activity. Result:
+  Cleaned ebextensions subdirectories from /opt/python/ondeck/app.
+[2019-04-19T01:53:02.396Z] INFO  [17099] - [Application update demo20@22/AppDeployStage0] : Completed activity. Result:
+  Application update - Command CMD-AppDeploy stage 0 completed
+[2019-04-19T01:53:02.397Z] INFO  [17099] - [Application update demo20@22/AppDeployStage1] : Starting activity...
+[2019-04-19T01:53:02.397Z] INFO  [17099] - [Application update demo20@22/AppDeployStage1/AppDeployEnactHook] : Starting activity...
+[2019-04-19T01:53:02.397Z] INFO  [17099] - [Application update demo20@22/AppDeployStage1/AppDeployEnactHook/01flip.py] : Starting activity...
+[2019-04-19T01:53:25.931Z] INFO  [17099] - [Application update demo20@22/AppDeployStage1/AppDeployEnactHook/01flip.py] : Completed activity. Result:
+  httpd: stopped
+  httpd: started
+  httpd                            RUNNING   pid 17277, uptime 0:00:02
+  2019-04-19 01:53:25,925 INFO     Apache is running, but root page is not responding in 3 seconds.
+[2019-04-19T01:53:25.932Z] INFO  [17099] - [Application update demo20@22/AppDeployStage1/AppDeployEnactHook/01stop_xray.sh] : Starting activity...
+[2019-04-19T01:53:26.047Z] INFO  [17099] - [Application update demo20@22/AppDeployStage1/AppDeployEnactHook/01stop_xray.sh] : Completed activity. Result:
+  Executing: if ( initctl status xray | grep start ); then initctl stop xray; fi
+  
+[2019-04-19T01:53:26.047Z] INFO  [17099] - [Application update demo20@22/AppDeployStage1/AppDeployEnactHook/02create_pids_for_monitoring.sh] : Starting activity...
+[2019-04-19T01:53:26.152Z] INFO  [17099] - [Application update demo20@22/AppDeployStage1/AppDeployEnactHook/02create_pids_for_monitoring.sh] : Completed activity. Result:
+  + chmod 0755 /var/run/httpd
+  + /opt/elasticbeanstalk/bin/healthd-track-pidfile --proxy httpd
+  + /opt/elasticbeanstalk/bin/healthd-track-pidfile --name application --location /opt/python/run/supervisord.pid
+[2019-04-19T01:53:26.152Z] INFO  [17099] - [Application update demo20@22/AppDeployStage1/AppDeployEnactHook/02start_xray.sh] : Starting activity...
+[2019-04-19T01:53:26.261Z] INFO  [17099] - [Application update demo20@22/AppDeployStage1/AppDeployEnactHook/02start_xray.sh] : Completed activity.
+[2019-04-19T01:53:26.261Z] INFO  [17099] - [Application update demo20@22/AppDeployStage1/AppDeployEnactHook] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/hooks/appdeploy/enact.
+[2019-04-19T01:53:26.261Z] INFO  [17099] - [Application update demo20@22/AppDeployStage1/AppDeployPostHook] : Starting activity...
+[2019-04-19T01:53:26.261Z] INFO  [17099] - [Application update demo20@22/AppDeployStage1/AppDeployPostHook] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/hooks/appdeploy/post.
+[2019-04-19T01:53:26.261Z] INFO  [17099] - [Application update demo20@22/AppDeployStage1] : Completed activity. Result:
+  Application version switch - Command CMD-AppDeploy stage 1 completed
+[2019-04-19T01:53:26.261Z] INFO  [17099] - [Application update demo20@22/AddonsAfter] : Starting activity...
+[2019-04-19T01:53:26.261Z] INFO  [17099] - [Application update demo20@22/AddonsAfter/ConfigLogRotation] : Starting activity...
+[2019-04-19T01:53:26.262Z] INFO  [17099] - [Application update demo20@22/AddonsAfter/ConfigLogRotation/10-config.sh] : Starting activity...
+[2019-04-19T01:53:26.341Z] INFO  [17099] - [Application update demo20@22/AddonsAfter/ConfigLogRotation/10-config.sh] : Completed activity. Result:
+  Disabled forced hourly log rotation.
+[2019-04-19T01:53:26.341Z] INFO  [17099] - [Application update demo20@22/AddonsAfter/ConfigLogRotation] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/addons/logpublish/hooks/config.
+[2019-04-19T01:53:26.341Z] INFO  [17099] - [Application update demo20@22/AddonsAfter] : Completed activity.
+[2019-04-19T01:53:26.341Z] INFO  [17099] - [Application update demo20@22] : Completed activity. Result:
+  Application update - Command CMD-AppDeploy succeeded
+[2019-04-19T02:09:56.865Z] INFO  [17988] - [CMD-TailLogs] : Starting activity...
+[2019-04-19T02:09:56.865Z] INFO  [17988] - [CMD-TailLogs/AddonsBefore] : Starting activity...
+[2019-04-19T02:09:56.865Z] INFO  [17988] - [CMD-TailLogs/AddonsBefore] : Completed activity.
+[2019-04-19T02:09:56.865Z] INFO  [17988] - [CMD-TailLogs/TailLogs] : Starting activity...
+[2019-04-19T02:09:56.865Z] INFO  [17988] - [CMD-TailLogs/TailLogs/TailLogs] : Starting activity...
+
+
+
+-------------------------------------
+/opt/python/log/sample-app.log
+-------------------------------------
+
+
+
+
+-------------------------------------
+/var/log/eb-commandprocessor.log
+-------------------------------------
+[2019-04-19T01:46:39.888Z] DEBUG [16570] : Running stages of Command CMD-AppDeploy from stage 0 to stage 1...
+[2019-04-19T01:46:39.888Z] INFO  [16570] : Running stage 0 of command CMD-AppDeploy...
+[2019-04-19T01:46:39.888Z] INFO  [16570] : Running leader election...
+[2019-04-19T01:46:40.285Z] INFO  [16570] : Instance is Leader.
+[2019-04-19T01:46:40.286Z] DEBUG [16570] : Loaded 5 actions for stage 0.
+[2019-04-19T01:46:40.286Z] INFO  [16570] : Running 1 of 5 actions: DownloadSourceBundle...
+[2019-04-19T01:46:40.949Z] INFO  [16570] : Running 2 of 5 actions: EbExtensionPreBuild...
+[2019-04-19T01:46:41.365Z] INFO  [16570] : Running 3 of 5 actions: AppDeployPreHook...
+[2019-04-19T01:46:44.992Z] INFO  [16570] : Running 4 of 5 actions: EbExtensionPostBuild...
+[2019-04-19T01:46:45.411Z] INFO  [16570] : Running 5 of 5 actions: InfraCleanEbextension...
+[2019-04-19T01:46:45.412Z] INFO  [16570] : Running stage 1 of command CMD-AppDeploy...
+[2019-04-19T01:46:45.412Z] DEBUG [16570] : Loaded 2 actions for stage 1.
+[2019-04-19T01:46:45.412Z] INFO  [16570] : Running 1 of 2 actions: AppDeployEnactHook...
+[2019-04-19T01:47:06.255Z] INFO  [16570] : Running 2 of 2 actions: AppDeployPostHook...
+[2019-04-19T01:47:06.256Z] INFO  [16570] : Running AddonsAfter for command CMD-AppDeploy...
+[2019-04-19T01:47:06.337Z] INFO  [16570] : Command CMD-AppDeploy succeeded!
+[2019-04-19T01:47:06.337Z] INFO  [16570] : Command processor returning results: 
+{"status":"SUCCESS","api_version":"1.0","results":[{"status":"SUCCESS","msg":"","returncode":0,"events":[]}]}
+[2019-04-19T01:52:55.473Z] DEBUG [17099] : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2019-04-19T01:52:55.473Z] DEBUG [17099] : Checking if the command processor should execute...
+[2019-04-19T01:52:55.474Z] DEBUG [17099] : Checking whether the command is applicable to instance (i-0c92c552958f5ce9e)..
+[2019-04-19T01:52:55.474Z] INFO  [17099] : Command is applicable to this instance (i-0c92c552958f5ce9e)..
+[2019-04-19T01:52:55.474Z] DEBUG [17099] : Checking if the received command stage is valid..
+[2019-04-19T01:52:55.474Z] INFO  [17099] : No stage_num in command. Valid stage..
+[2019-04-19T01:52:55.474Z] INFO  [17099] : Received command CMD-AppDeploy: {"execution_data"=>"{\"leader_election\":\"true\"}", "instance_ids"=>["i-0c92c552958f5ce9e"], "data"=>"manifest_1555638771172", "command_name"=>"CMD-AppDeploy", "api_version"=>"1.0", "resource_name"=>"AWSEBAutoScalingGroup", "request_id"=>"d4a158ec-6245-11e9-a49e-b52473367856"}
+[2019-04-19T01:52:55.474Z] INFO  [17099] : Command processor should execute command.
+[2019-04-19T01:52:55.475Z] DEBUG [17099] : Storing current stage..
+[2019-04-19T01:52:55.475Z] DEBUG [17099] : Stage_num does not exist. Not saving null stage. Returning..
+[2019-04-19T01:52:55.475Z] DEBUG [17099] : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2019-04-19T01:52:55.475Z] DEBUG [17099] : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
+[2019-04-19T01:52:55.475Z] DEBUG [17099] : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
+[2019-04-19T01:52:55.476Z] INFO  [17099] : Found enabled addons: ["logstreaming", "logpublish"].
+[2019-04-19T01:52:55.477Z] INFO  [17099] : Updating Command definition of addon logstreaming.
+[2019-04-19T01:52:55.477Z] INFO  [17099] : Updating Command definition of addon logpublish.
+[2019-04-19T01:52:55.477Z] DEBUG [17099] : Refreshing metadata...
+[2019-04-19T01:52:55.880Z] DEBUG [17099] : Refreshed environment metadata.
+[2019-04-19T01:52:55.881Z] INFO  [17099] : Recreated directory /opt/elasticbeanstalk/deploy/configuration/.
+[2019-04-19T01:52:55.881Z] DEBUG [17099] : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_AppSourceUrlFileContent||url..
+[2019-04-19T01:52:55.881Z] INFO  [17099] : Created appsource url file at /opt/elasticbeanstalk/deploy/configuration/appsourceurl.
+[2019-04-19T01:52:55.881Z] DEBUG [17099] : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent..
+[2019-04-19T01:52:55.883Z] INFO  [17099] : Created container config file at /opt/elasticbeanstalk/deploy/configuration/containerconfiguration.
+[2019-04-19T01:52:55.883Z] DEBUG [17099] : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
+[2019-04-19T01:52:55.884Z] DEBUG [17099] : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
+[2019-04-19T01:52:55.885Z] INFO  [17099] : Found enabled addons: ["logstreaming", "logpublish"].
+[2019-04-19T01:52:55.886Z] INFO  [17099] : Updating Command definition of addon logstreaming.
+[2019-04-19T01:52:55.886Z] INFO  [17099] : Updating Command definition of addon logpublish.
+[2019-04-19T01:52:55.886Z] DEBUG [17099] : Retrieving metadata for key: AWS::CloudFormation::Init||Infra-WriteApplication2||files..
+[2019-04-19T01:52:55.886Z] DEBUG [17099] : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||ManifestFileS3Key..
+[2019-04-19T01:52:55.983Z] INFO  [17099] : Loading manifest from bucket 'elasticbeanstalk-us-east-1-969496461115' using computed S3 key 'resources/environments/e-4rtsveypk9/_runtime/versions/manifest_1555638771172'.
+[2019-04-19T01:52:56.032Z] INFO  [17099] : Updated manifest cache: deployment ID 22 and serial 22.
+[2019-04-19T01:52:56.032Z] DEBUG [17099] : Loaded definition of Command CMD-AppDeploy.
+[2019-04-19T01:52:56.033Z] INFO  [17099] : Executing Application update
+[2019-04-19T01:52:56.033Z] INFO  [17099] : Executing command: CMD-AppDeploy...
+[2019-04-19T01:52:56.033Z] INFO  [17099] : Executing command CMD-AppDeploy activities...
+[2019-04-19T01:52:56.033Z] DEBUG [17099] : Setting environment variables..
+[2019-04-19T01:52:56.033Z] INFO  [17099] : Running AddonsBefore for command CMD-AppDeploy...
+[2019-04-19T01:52:56.159Z] DEBUG [17099] : Running stages of Command CMD-AppDeploy from stage 0 to stage 1...
+[2019-04-19T01:52:56.159Z] INFO  [17099] : Running stage 0 of command CMD-AppDeploy...
+[2019-04-19T01:52:56.159Z] INFO  [17099] : Running leader election...
+[2019-04-19T01:52:56.560Z] INFO  [17099] : Instance is Leader.
+[2019-04-19T01:52:56.561Z] DEBUG [17099] : Loaded 5 actions for stage 0.
+[2019-04-19T01:52:56.561Z] INFO  [17099] : Running 1 of 5 actions: DownloadSourceBundle...
+[2019-04-19T01:52:57.227Z] INFO  [17099] : Running 2 of 5 actions: EbExtensionPreBuild...
+[2019-04-19T01:52:57.593Z] INFO  [17099] : Running 3 of 5 actions: AppDeployPreHook...
+[2019-04-19T01:53:01.971Z] INFO  [17099] : Running 4 of 5 actions: EbExtensionPostBuild...
+[2019-04-19T01:53:02.396Z] INFO  [17099] : Running 5 of 5 actions: InfraCleanEbextension...
+[2019-04-19T01:53:02.396Z] INFO  [17099] : Running stage 1 of command CMD-AppDeploy...
+[2019-04-19T01:53:02.397Z] DEBUG [17099] : Loaded 2 actions for stage 1.
+[2019-04-19T01:53:02.397Z] INFO  [17099] : Running 1 of 2 actions: AppDeployEnactHook...
+[2019-04-19T01:53:26.261Z] INFO  [17099] : Running 2 of 2 actions: AppDeployPostHook...
+[2019-04-19T01:53:26.261Z] INFO  [17099] : Running AddonsAfter for command CMD-AppDeploy...
+[2019-04-19T01:53:26.341Z] INFO  [17099] : Command CMD-AppDeploy succeeded!
+[2019-04-19T01:53:26.342Z] INFO  [17099] : Command processor returning results: 
+{"status":"SUCCESS","api_version":"1.0","results":[{"status":"SUCCESS","msg":"","returncode":0,"events":[]}]}
+[2019-04-19T02:09:56.860Z] DEBUG [17988] : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2019-04-19T02:09:56.860Z] DEBUG [17988] : Checking if the command processor should execute...
+[2019-04-19T02:09:56.862Z] DEBUG [17988] : Checking whether the command is applicable to instance (i-0c92c552958f5ce9e)..
+[2019-04-19T02:09:56.862Z] INFO  [17988] : Command is applicable to this instance (i-0c92c552958f5ce9e)..
+[2019-04-19T02:09:56.862Z] DEBUG [17988] : Checking if the received command stage is valid..
+[2019-04-19T02:09:56.862Z] INFO  [17988] : No stage_num in command. Valid stage..
+[2019-04-19T02:09:56.862Z] INFO  [17988] : Received command CMD-TailLogs: {"execution_data"=>"*", "instance_ids"=>["i-0c92c552958f5ce9e"], "data"=>"395b1a82-6248-11e9-8c29-0b27bc1df891", "command_name"=>"CMD-TailLogs", "api_version"=>"1.0", "resource_name"=>"AWSEBAutoScalingGroup", "request_id"=>"395b1a82-6248-11e9-8c29-0b27bc1df891"}
+[2019-04-19T02:09:56.862Z] INFO  [17988] : Command processor should execute command.
+[2019-04-19T02:09:56.862Z] DEBUG [17988] : Storing current stage..
+[2019-04-19T02:09:56.862Z] DEBUG [17988] : Stage_num does not exist. Not saving null stage. Returning..
+[2019-04-19T02:09:56.862Z] DEBUG [17988] : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2019-04-19T02:09:56.862Z] DEBUG [17988] : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
+[2019-04-19T02:09:56.863Z] DEBUG [17988] : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
+[2019-04-19T02:09:56.863Z] INFO  [17988] : Found enabled addons: ["logstreaming", "logpublish"].
+[2019-04-19T02:09:56.864Z] INFO  [17988] : Updating Command definition of addon logstreaming.
+[2019-04-19T02:09:56.864Z] INFO  [17988] : Updating Command definition of addon logpublish.
+[2019-04-19T02:09:56.864Z] DEBUG [17988] : Loaded definition of Command CMD-TailLogs.
+[2019-04-19T02:09:56.865Z] INFO  [17988] : Executing CMD-TailLogs
+[2019-04-19T02:09:56.865Z] INFO  [17988] : Executing command: CMD-TailLogs...
+[2019-04-19T02:09:56.865Z] INFO  [17988] : Executing command CMD-TailLogs activities...
+[2019-04-19T02:09:56.865Z] DEBUG [17988] : Setting environment variables..
+[2019-04-19T02:09:56.865Z] INFO  [17988] : Running AddonsBefore for command CMD-TailLogs...
+[2019-04-19T02:09:56.865Z] DEBUG [17988] : Running stages of Command CMD-TailLogs from stage 0 to stage 0...
+[2019-04-19T02:09:56.865Z] INFO  [17988] : Running stage 0 of command CMD-TailLogs...
+[2019-04-19T02:09:56.865Z] DEBUG [17988] : Loaded 1 actions for stage 0.
+[2019-04-19T02:09:56.865Z] INFO  [17988] : Running 1 of 1 actions: TailLogs...
+
+
+
