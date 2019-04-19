@@ -19,8 +19,11 @@ def get():
     response = app.response_class(
             response=json.dumps(outdat), 
             status=200, 
-            mimetype='application/json'
+            mimetype='application/json', 
+            header
             )
+
+    #response = Response(outdat, stat
     return response
 
 if __name__=='__main__': 

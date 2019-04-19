@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 #from flask_restful import Resource, Api
-#from script import predict
+from script import predict
 application = app = Flask(__name__)
 #api = Api(app)
 
