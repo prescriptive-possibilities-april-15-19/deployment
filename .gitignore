@@ -2,5 +2,4 @@
 *.pickle
 deploy-virt/
 *.zip
-scratchy/
 __pycache__/
